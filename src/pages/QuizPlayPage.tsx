@@ -26,7 +26,7 @@ function QuizArea({ words, unit, username, sessionId, startTime }: QuizAreaProps
     if (!quiz.isComplete) return
     const duration_ms = Date.now() - startTime
     api.completeSession({ session_id: sessionId, student: username, unit, rounds: quiz.rounds, duration_ms })
-      .then(() => navigate('/result', { state: { unit, rounds: quiz.rounds, duration_ms } }))
+      .finally(() => navigate('/result', { state: { unit, rounds: quiz.rounds, duration_ms } }))
   }, [quiz.isComplete])
 
   const handleSubmit = async (e: FormEvent) => {
@@ -110,7 +110,7 @@ export default function QuizPlayPage() {
   const { username } = useAuth()
   const [words, setWords] = useState<WordEntry[] | null>(null)
   const [sessionId, setSessionId] = useState<number | null>(null)
-  const startTime = useRef(Date.now())
+  const startTime = useRef(0)
 
   useEffect(() => {
     if (!unit || !username) return

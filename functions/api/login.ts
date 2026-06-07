@@ -13,8 +13,8 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   }
 
   const username = body.username?.trim()
-  if (!username) {
-    return Response.json({ error: 'username required' }, { status: 400 })
+  if (!username || username.length > 50) {
+    return Response.json({ error: 'username required (max 50 chars)' }, { status: 400 })
   }
 
   const now = Date.now()

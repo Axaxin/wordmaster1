@@ -44,7 +44,7 @@ export const onRequestGet: PagesFunction<Env> = async ({ params, env }) => {
      FROM quiz_events
      WHERE student = ? AND event_type = 'word_attempt'
      GROUP BY word, unit
-     HAVING total_attempts > 1
+     HAVING correct_count < total_attempts
      ORDER BY (CAST(correct_count AS REAL) / total_attempts) ASC
      LIMIT 20`
   ).bind(username).all<{ word: string; unit: string; total_attempts: number; correct_count: number }>()
