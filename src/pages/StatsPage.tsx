@@ -8,6 +8,7 @@ export default function StatsPage() {
   const { username } = useAuth()
   const [stats, setStats] = useState<StudentStats | null>(null)
   const [loading, setLoading] = useState(true)
+  const [clearing, setClearing] = useState(false)
 
   useEffect(() => {
     if (!username) return
@@ -18,8 +19,15 @@ export default function StatsPage() {
 
   const handleClearStats = async () => {
     if (!window.confirm('确认清空所有记录？此操作不可恢复。')) return
-    await api.clearStats(username!)
-    setStats({ sessions: [], high_error_words: [] })
+    setClearing(true)
+    try {
+      await api.clearStats(username!)
+      setStats({ sessions: [], high_error_words: [] })
+    } catch {
+      window.alert('清空失败，请重试')
+    } finally {
+      setClearing(false)
+    }
   }
 
   if (loading) return <p className="p-4 text-gray-500">加载中…</p>
@@ -31,7 +39,8 @@ export default function StatsPage() {
         <h2 className="text-xl font-bold text-gray-900">{username} 的学习统计</h2>
         <button
           onClick={handleClearStats}
-          className="text-sm text-red-600 hover:text-red-700 border border-red-200 hover:bg-red-50 rounded-lg px-3 py-1.5 transition-colors"
+          disabled={clearing}
+          className="text-sm text-red-600 hover:text-red-700 border border-red-200 hover:bg-red-50 rounded-lg px-3 py-1.5 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
         >
           清空记录
         </button>
