@@ -22,6 +22,12 @@ async function get<T>(path: string): Promise<T> {
   return res.json()
 }
 
+async function del<T>(path: string): Promise<T> {
+  const res = await fetch(path, { method: 'DELETE' })
+  if (!res.ok) throw new Error(`DELETE ${path} failed: ${res.status}`)
+  return res.json()
+}
+
 export const api = {
   login: (username: string) =>
     post<Student>('/api/login', { username }),
@@ -54,4 +60,7 @@ export const api = {
 
   getStats: (username: string) =>
     get<StudentStats>(`/api/student/${encodeURIComponent(username)}/stats`),
+
+  clearStats: (username: string) =>
+    del<{ ok: boolean }>(`/api/student/${encodeURIComponent(username)}/clear-stats`),
 }

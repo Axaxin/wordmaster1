@@ -16,12 +16,26 @@ export default function StatsPage() {
       .finally(() => setLoading(false))
   }, [username])
 
+  const handleClearStats = async () => {
+    if (!window.confirm('确认清空所有记录？此操作不可恢复。')) return
+    await api.clearStats(username!)
+    setStats({ sessions: [], high_error_words: [] })
+  }
+
   if (loading) return <p className="p-4 text-gray-500">加载中…</p>
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-6">
       <Link to="/home" className="text-sm text-indigo-600 hover:text-indigo-700">← 返回</Link>
-      <h2 className="text-xl font-bold text-gray-900 mt-4 mb-6">{username} 的学习统计</h2>
+      <div className="flex justify-between items-center mt-4 mb-6">
+        <h2 className="text-xl font-bold text-gray-900">{username} 的学习统计</h2>
+        <button
+          onClick={handleClearStats}
+          className="text-sm text-red-600 hover:text-red-700 border border-red-200 hover:bg-red-50 rounded-lg px-3 py-1.5 transition-colors"
+        >
+          清空记录
+        </button>
+      </div>
 
       <h3 className="text-sm font-semibold text-gray-700 uppercase tracking-wide mb-3">最近会话</h3>
       {!stats?.sessions.length && <p className="text-gray-500 text-sm">还没有完成的测验记录</p>}
