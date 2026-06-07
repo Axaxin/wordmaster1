@@ -5,4 +5,4 @@ pages_build_output_dir = "dist"
 [[d1_databases]]
 binding = "DB"
 database_name = "wordmaster-db"
-database_id = "PLACEHOLDER"
+database_id = "1077221f-58b6-468f-8465-49fe2b3368ed"
