@@ -1,3 +1,4 @@
+import React from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { AuthProvider, useAuth } from './context/AuthContext'
 import LoginPage from './pages/LoginPage'
@@ -7,7 +8,7 @@ import QuizPlayPage from './pages/QuizPlayPage'
 import ResultPage from './pages/ResultPage'
 import StatsPage from './pages/StatsPage'
 
-function RequireAuth({ children }: { children: JSX.Element }) {
+function RequireAuth({ children }: { children: React.ReactElement }) {
   const { username } = useAuth()
   return username ? children : <Navigate to="/" replace />
 }
