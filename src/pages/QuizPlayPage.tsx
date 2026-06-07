@@ -62,24 +62,16 @@ function QuizArea({ words, unit, username, sessionId, startTime }: QuizAreaProps
   if (!quiz.current) return null
 
   return (
-    <div style={{ maxWidth: 480, margin: '0 auto', padding: 16 }}>
+    <div className="max-w-lg mx-auto px-4 py-6">
       <WordCard word={quiz.current} remaining={quiz.remaining} rounds={quiz.rounds} />
 
       {feedback && (
-        <div style={{
-          background: '#fee2e2',
-          border: '1px solid #fca5a5',
-          borderRadius: 8,
-          padding: '8px 12px',
-          marginBottom: 12,
-          textAlign: 'center',
-          color: '#b91c1c',
-        }}>
+        <div className="bg-red-50 border border-red-200 rounded-lg px-4 py-3 mb-4 text-center text-red-700">
           正确答案：<strong>{feedback}</strong>
         </div>
       )}
 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="space-y-3">
         <input
           ref={inputRef}
           type="text"
@@ -91,12 +83,12 @@ function QuizArea({ words, unit, username, sessionId, startTime }: QuizAreaProps
           autoCapitalize="none"
           spellCheck={false}
           disabled={feedback !== null}
-          style={{ width: '100%', padding: '10px', fontSize: 18, marginBottom: 8 }}
+          className="w-full px-3 py-3 text-lg border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 disabled:bg-gray-50 disabled:text-gray-400"
         />
         <button
           type="submit"
           disabled={!input.trim() || feedback !== null}
-          style={{ width: '100%', padding: '10px', fontSize: 16 }}
+          className="w-full py-3 text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
         >
           提交
         </button>
@@ -127,7 +119,7 @@ export default function QuizPlayPage() {
     })
   }, [unit, username])
 
-  if (!words || sessionId === null) return <p style={{ padding: 16 }}>加载中…</p>
+  if (!words || sessionId === null) return <p className="p-4 text-gray-500">加载中…</p>
 
   return (
     <QuizArea
