@@ -1,0 +1,389 @@
+{
+  "meta": {
+    "title": "Year 7 Sem 2 Unit 1",
+    "description": "七年级第二学期 Unit 1",
+    "total": 76
+  },
+  "words": [
+    {
+      "word": "review",
+      "meaning": "书评",
+      "note": "n. /rɪˈvjuː/"
+    },
+    {
+      "word": "chocolate",
+      "meaning": "巧克力，朱古力",
+      "note": "n. /ˈtʃɒklət/"
+    },
+    {
+      "word": "factory",
+      "meaning": "工厂，制造厂",
+      "note": "n. /ˈfæktəri/"
+    },
+    {
+      "word": "exciting",
+      "meaning": "令人兴奋的；使人激动的；刺激的",
+      "note": "adj. /ɪkˈsaɪtɪŋ/"
+    },
+    {
+      "word": "most",
+      "meaning": "最",
+      "note": "adv. /məʊst/"
+    },
+    {
+      "word": "magical",
+      "meaning": "奇异的，美妙的，迷人的",
+      "note": "adj. /ˈmædʒɪkəl/"
+    },
+    {
+      "word": "part",
+      "meaning": "部分",
+      "note": "n. /pɑːt/"
+    },
+    {
+      "word": "side",
+      "meaning": "边，面，侧",
+      "note": "n. /saɪd/"
+    },
+    {
+      "word": "town",
+      "meaning": "镇，城镇，市镇",
+      "note": "n. /taʊn/"
+    },
+    {
+      "word": "poor",
+      "meaning": "贫穷的，贫困的",
+      "note": "adj. /pɔː/"
+    },
+    {
+      "word": "stay",
+      "meaning": "停留",
+      "note": "v. /steɪ/"
+    },
+    {
+      "word": "only",
+      "meaning": "唯一的，仅有的",
+      "note": "adj. /ˈəʊnli/"
+    },
+    {
+      "word": "watery",
+      "meaning": "（食物）稀薄的，含水太多的；（饮料）味淡的",
+      "note": "adj. /ˈwɔːtəri/"
+    },
+    {
+      "word": "cabbage",
+      "meaning": "卷心菜，洋白菜，甘蓝",
+      "note": "n. /ˈkæbɪdʒ/"
+    },
+    {
+      "word": "freezing",
+      "meaning": "极冷的，严寒的",
+      "note": "adj. /ˈfriːzɪŋ/"
+    },
+    {
+      "word": "forget",
+      "meaning": "忘记，遗忘",
+      "note": "v. /fəˈɡet/"
+    },
+    {
+      "word": "touch",
+      "meaning": "感动，触动，打动",
+      "note": "v. /tʌtʃ/"
+    },
+    {
+      "word": "once",
+      "meaning": "曾经，过去",
+      "note": "adv. /wʌns/"
+    },
+    {
+      "word": "sunless",
+      "meaning": "无阳（日）光的",
+      "note": "adj. /ˈsʌnləs/"
+    },
+    {
+      "word": "choose",
+      "meaning": "选择",
+      "note": "v. /tʃuːz/"
+    },
+    {
+      "word": "everything",
+      "meaning": "每件事物；所有事物",
+      "note": "pron. /ˈevriθɪŋ/"
+    },
+    {
+      "word": "rich",
+      "meaning": "有钱的，富有的",
+      "note": "adj. /rɪtʃ/"
+    },
+    {
+      "word": "complete",
+      "meaning": "完成",
+      "note": "v. /kəmˈpliːt/"
+    },
+    {
+      "word": "expression",
+      "meaning": "词组",
+      "note": "n. /ɪkˈspreʃən/"
+    },
+    {
+      "word": "passage",
+      "meaning": "一段，一节",
+      "note": "n. /ˈpæsɪdʒ/"
+    },
+    {
+      "word": "comment",
+      "meaning": "意见，评论",
+      "note": "n. /ˈkɒment/"
+    },
+    {
+      "word": "description",
+      "meaning": "描述，描写，叙述，形容",
+      "note": "n. /dɪˈskrɪpʃən/"
+    },
+    {
+      "word": "theme",
+      "meaning": "主题",
+      "note": "n. /θiːm/"
+    },
+    {
+      "word": "agree",
+      "meaning": "同意，赞同",
+      "note": "v. /əˈɡriː/"
+    },
+    {
+      "word": "paragraph",
+      "meaning": "（文章的）段，段落",
+      "note": "n. /ˈpærəɡrɑːf/"
+    },
+    {
+      "word": "understand",
+      "meaning": "理解",
+      "note": "v. /ˌʌndəˈstænd/"
+    },
+    {
+      "word": "other",
+      "meaning": "另外的人，其他的人",
+      "note": "pron. /ˈʌðə/"
+    },
+    {
+      "word": "relate",
+      "meaning": "把……联系起来",
+      "note": "v. /rɪˈleɪt/"
+    },
+    {
+      "word": "experience",
+      "meaning": "经验；经历",
+      "note": "n. /ɪkˈspɪəriəns/"
+    },
+    {
+      "word": "opinion",
+      "meaning": "意见，看法",
+      "note": "n. /əˈpɪnjən/"
+    },
+    {
+      "word": "topic",
+      "meaning": "话题，论题",
+      "note": "n. /ˈtɒpɪk/"
+    },
+    {
+      "word": "grammar",
+      "meaning": "语法",
+      "note": "n. /ˈɡræmə/"
+    },
+    {
+      "word": "rule",
+      "meaning": "规则",
+      "note": "n. /ruːl/"
+    },
+    {
+      "word": "more",
+      "meaning": "另外的，更多的",
+      "note": "det. /mɔː/"
+    },
+    {
+      "word": "correct",
+      "meaning": "正确的",
+      "note": "adj. /kəˈrekt/"
+    },
+    {
+      "word": "form",
+      "meaning": "形式",
+      "note": "n. /fɔːm/"
+    },
+    {
+      "word": "chess",
+      "meaning": "国际象棋",
+      "note": "n. /tʃes/"
+    },
+    {
+      "word": "trip",
+      "meaning": "旅游；旅行，出行",
+      "note": "n. /trɪp/"
+    },
+    {
+      "word": "post",
+      "meaning": "帖子",
+      "note": "n. /pəʊst/"
+    },
+    {
+      "word": "dragon",
+      "meaning": "龙",
+      "note": "n. /ˈdræɡən/"
+    },
+    {
+      "word": "bath",
+      "meaning": "给……洗澡",
+      "note": "v. /bɑːθ/"
+    },
+    {
+      "word": "decide",
+      "meaning": "决定，决断，判断",
+      "note": "v. /dɪˈsaɪd/"
+    },
+    {
+      "word": "basket",
+      "meaning": "篮子；篓子；筐子",
+      "note": "n. /ˈbɑːskɪt/"
+    },
+    {
+      "word": "princess",
+      "meaning": "公主",
+      "note": "n. /ˌprɪnˈses/"
+    },
+    {
+      "word": "example",
+      "meaning": "例子",
+      "note": "n. /ɪɡˈzɑːmpəl/"
+    },
+    {
+      "word": "believe",
+      "meaning": "认为",
+      "note": "v. /bɪˈliːv/"
+    },
+    {
+      "word": "survey",
+      "meaning": "调查",
+      "note": "n. /ˈsɜːveɪ/"
+    },
+    {
+      "word": "empty",
+      "meaning": "空的",
+      "note": "adj. /ˈempti/"
+    },
+    {
+      "word": "happen",
+      "meaning": "发生",
+      "note": "v. /ˈhæpən/"
+    },
+    {
+      "word": "presentation",
+      "meaning": "报告",
+      "note": "n. /ˌprezənˈteɪʃən/"
+    },
+    {
+      "word": "positive",
+      "meaning": "有信心的；积极乐观的",
+      "note": "adj. /ˈpɒzətɪv/"
+    },
+    {
+      "word": "blow",
+      "meaning": "吹动；刮动",
+      "note": "v. /bləʊ/"
+    },
+    {
+      "word": "wave",
+      "meaning": "挥动，摆动（某物）；（某物）上下起伏，左右摇晃",
+      "note": "v. /weɪv/"
+    },
+    {
+      "word": "voice",
+      "meaning": "说话声，嗓音；发声能力",
+      "note": "n. /vɔɪs/"
+    },
+    {
+      "word": "just",
+      "meaning": "只不过，只是",
+      "note": "adv. /dʒəst/"
+    },
+    {
+      "word": "himself",
+      "meaning": "他自己",
+      "note": "pron. /hɪmˈself/"
+    },
+    {
+      "word": "shame",
+      "meaning": "羞愧，羞耻，惭愧",
+      "note": "n. /ʃeɪm/"
+    },
+    {
+      "word": "finally",
+      "meaning": "最后，终于",
+      "note": "adv. /ˈfaɪnəl-i/"
+    },
+    {
+      "word": "into",
+      "meaning": "进入，到……里面",
+      "note": "prep. /ˈɪntə/"
+    },
+    {
+      "word": "barber",
+      "meaning": "男理发师",
+      "note": "n. /ˈbɑːbə/"
+    },
+    {
+      "word": "fall",
+      "meaning": "落下，降落，跌落",
+      "note": "v. /fɔːl/"
+    },
+    {
+      "word": "shoulder",
+      "meaning": "肩膀",
+      "note": "n. /ˈʃəʊldə/"
+    },
+    {
+      "word": "customer",
+      "meaning": "顾客，客户",
+      "note": "n. /ˈkʌstəmə/"
+    },
+    {
+      "word": "surprised",
+      "meaning": "吃惊的，惊奇的，惊讶的，诧异的",
+      "note": "adj. /səˈpraɪzd/"
+    },
+    {
+      "word": "scissors",
+      "meaning": "剪刀；剪子",
+      "note": "n. /ˈsɪzəz/"
+    },
+    {
+      "word": "office",
+      "meaning": "办公楼，办事处，公司",
+      "note": "n. /ˈɒfɪs/"
+    },
+    {
+      "word": "receive",
+      "meaning": "得到，收到",
+      "note": "v. /rɪˈsiːv/"
+    },
+    {
+      "word": "cancer",
+      "meaning": "癌（症）",
+      "note": "n. /ˈkænsə/"
+    },
+    {
+      "word": "wig",
+      "meaning": "假发",
+      "note": "n. /wɪɡ/"
+    },
+    {
+      "word": "smart",
+      "meaning": "聪颖的，机灵的；明智的",
+      "note": "adj. /smɑːt/"
+    },
+    {
+      "word": "smile",
+      "meaning": "微笑",
+      "note": "v. /smaɪl/"
+    }
+  ]
+}
