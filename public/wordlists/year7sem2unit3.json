@@ -1,0 +1,684 @@
+{
+  "meta": {
+    "title": "Year 7 Sem 2 Unit 3",
+    "description": "七年级第二学期 Unit 3",
+    "total": 135
+  },
+  "words": [
+    {
+      "word": "delicious",
+      "meaning": "令人愉快的；美味的",
+      "note": "adj. /dɪˈlɪʃəs/"
+    },
+    {
+      "word": "certain",
+      "meaning": "某个；某些",
+      "note": "adj. /ˈsɜːtn/"
+    },
+    {
+      "word": "mine",
+      "meaning": "我的（东西）",
+      "note": "pron. /maɪn/"
+    },
+    {
+      "word": "beef",
+      "meaning": "牛肉",
+      "note": "n. /biːf/"
+    },
+    {
+      "word": "carrot",
+      "meaning": "胡萝卜",
+      "note": "n. /ˈkærət/"
+    },
+    {
+      "word": "mutton",
+      "meaning": "羊肉",
+      "note": "n. /ˈmʌtn/"
+    },
+    {
+      "word": "fat",
+      "meaning": "肥胖的",
+      "note": "adj. /fæt/"
+    },
+    {
+      "word": "hen",
+      "meaning": "母鸡",
+      "note": "n. /hen/"
+    },
+    {
+      "word": "pot",
+      "meaning": "（通常为金属制成的圆而深的）锅",
+      "note": "n. /pɒt/"
+    },
+    {
+      "word": "onion",
+      "meaning": "洋葱（头）",
+      "note": "n. /ˈʌnjən/"
+    },
+    {
+      "word": "pancake",
+      "meaning": "薄煎（烤，烙）饼",
+      "note": "n. /ˈpænkeɪk/"
+    },
+    {
+      "word": "note",
+      "meaning": "笔记",
+      "note": "n. /nəʊt/"
+    },
+    {
+      "word": "during",
+      "meaning": "在……期间",
+      "note": "prep. /ˈdjʊərɪŋ/"
+    },
+    {
+      "word": "consider",
+      "meaning": "考虑，细想",
+      "note": "v. /kənˈsɪdə/"
+    },
+    {
+      "word": "both",
+      "meaning": "两者，双方，两个都",
+      "note": "pron. /bəʊθ/"
+    },
+    {
+      "word": "sink",
+      "meaning": "下沉，沉没",
+      "note": "v. /sɪŋk/"
+    },
+    {
+      "word": "sink or swim",
+      "meaning": "自生自灭，成败全靠自己",
+      "note": ""
+    },
+    {
+      "word": "as",
+      "meaning": "在某一年龄段时",
+      "note": "prep. /əz/"
+    },
+    {
+      "word": "surfer",
+      "meaning": "冲浪者",
+      "note": "n. /ˈsɜːfə/"
+    },
+    {
+      "word": "shark",
+      "meaning": "鲨（鱼）",
+      "note": "n. /ʃɑːk/"
+    },
+    {
+      "word": "attack",
+      "meaning": "袭击，殴打；破坏",
+      "note": "v. /əˈtæk/"
+    },
+    {
+      "word": "nearly",
+      "meaning": "几乎，差不多，将近",
+      "note": "adv. /ˈnɪəli/"
+    },
+    {
+      "word": "die",
+      "meaning": "死去，死亡",
+      "note": "v. /daɪ/"
+    },
+    {
+      "word": "surfing",
+      "meaning": "冲浪（运动）",
+      "note": "n. /ˈsɜːfɪŋ/"
+    },
+    {
+      "word": "competition",
+      "meaning": "比赛",
+      "note": "n. /ˌkɒmpəˈtɪʃən/"
+    },
+    {
+      "word": "compare",
+      "meaning": "相比较；可媲美",
+      "note": "v. /kəmˈpeə/"
+    },
+    {
+      "word": "achievement",
+      "meaning": "成绩；成就",
+      "note": "n. /əˈtʃiːvmənt/"
+    },
+    {
+      "word": "surfboard",
+      "meaning": "冲浪板",
+      "note": "n. /ˈsɜːfbɔːd/"
+    },
+    {
+      "word": "ride",
+      "meaning": "漂浮",
+      "note": "v. /raɪd/"
+    },
+    {
+      "word": "lover",
+      "meaning": "爱好者",
+      "note": "n. /ˈlʌvə/"
+    },
+    {
+      "word": "gold",
+      "meaning": "金质的",
+      "note": "adj. /ɡəʊld/"
+    },
+    {
+      "word": "medal",
+      "meaning": "奖牌；勋章",
+      "note": "n. /ˈmedl/"
+    },
+    {
+      "word": "proud",
+      "meaning": "自豪的，得意的",
+      "note": "adj. /praʊd/"
+    },
+    {
+      "word": "fit",
+      "meaning": "健壮的，健康的",
+      "note": "adj. /fɪt/"
+    },
+    {
+      "word": "final",
+      "meaning": "决赛",
+      "note": "n. /ˈfaɪnəl/"
+    },
+    {
+      "word": "team",
+      "meaning": "（游戏或体育比赛的）队",
+      "note": "n. /tiːm/"
+    },
+    {
+      "word": "even",
+      "meaning": "甚至",
+      "note": "adv. /ˈiːvən/"
+    },
+    {
+      "word": "worse",
+      "meaning": "（badly的比较级）更严重地；更厉害地",
+      "note": "adv. /wɜːs/"
+    },
+    {
+      "word": "pay attention",
+      "meaning": "认真看，仔细听，用心思考",
+      "note": ""
+    },
+    {
+      "word": "continue",
+      "meaning": "（使）继续；（使）延续",
+      "note": "v. /kənˈtɪnjuː/"
+    },
+    {
+      "word": "brave",
+      "meaning": "勇敢的，无畏的",
+      "note": "adj. /breɪv/"
+    },
+    {
+      "word": "action",
+      "meaning": "行为",
+      "note": "n. /ˈækʃən/"
+    },
+    {
+      "word": "until",
+      "meaning": "直到……为止",
+      "note": "conj. /ʌnˈtɪl/"
+    },
+    {
+      "word": "golden",
+      "meaning": "金色的，金黄色的",
+      "note": "adj. /ˈɡəʊldən/"
+    },
+    {
+      "word": "plate",
+      "meaning": "盘，碟",
+      "note": "n. /pleɪt/"
+    },
+    {
+      "word": "loud",
+      "meaning": "大声的，喧闹的",
+      "note": "adj. /laʊd/"
+    },
+    {
+      "word": "heat",
+      "meaning": "（烹饪或加热时的）温度",
+      "note": "n. /hiːt/"
+    },
+    {
+      "word": "firm",
+      "meaning": "结实的，坚实的",
+      "note": "adj. /fɜːm/"
+    },
+    {
+      "word": "recipe",
+      "meaning": "烹饪法；食谱",
+      "note": "n. /ˈresəpi/"
+    },
+    {
+      "word": "ingredient",
+      "meaning": "（烹调用的）成分，食材",
+      "note": "n. /ɪnˈɡriːdiənt/"
+    },
+    {
+      "word": "step",
+      "meaning": "步骤",
+      "note": "n. /step/"
+    },
+    {
+      "word": "diet",
+      "meaning": "节食；规定饮食",
+      "note": "n. /ˈdaɪət/"
+    },
+    {
+      "word": "restaurant",
+      "meaning": "饭店，餐馆",
+      "note": "n. /ˈrestərɒnt/"
+    },
+    {
+      "word": "salad",
+      "meaning": "（生吃的）蔬菜沙拉",
+      "note": "n. /ˈsæləd/"
+    },
+    {
+      "word": "hamburger",
+      "meaning": "汉堡包",
+      "note": "n. /ˈhæmbɜːɡə/"
+    },
+    {
+      "word": "snack",
+      "meaning": "（正餐以外的）小吃，点心",
+      "note": "n. /snæk/"
+    },
+    {
+      "word": "chip",
+      "meaning": "炸马铃薯条",
+      "note": "n. /tʃɪp/"
+    },
+    {
+      "word": "dangerous",
+      "meaning": "危险的，有危害的",
+      "note": "adj. /ˈdeɪndʒərəs/"
+    },
+    {
+      "word": "border",
+      "meaning": "边界；边境",
+      "note": "n. /ˈbɔːdə/"
+    },
+    {
+      "word": "Western",
+      "meaning": "（观念或方式）西方的，欧美的",
+      "note": "adj. /ˈwestən/"
+    },
+    {
+      "word": "dessert",
+      "meaning": "（饭后的）甜点，甜食，甜品",
+      "note": "n. /dɪˈzɜːt/"
+    },
+    {
+      "word": "actually",
+      "meaning": "实际上，事实上",
+      "note": "adv. /ˈæktʃuəli/"
+    },
+    {
+      "word": "dynasty",
+      "meaning": "朝代",
+      "note": "n. /ˈdɪnəsti/"
+    },
+    {
+      "word": "store",
+      "meaning": "贮藏，贮存，积蓄",
+      "note": "v. /stɔː/"
+    },
+    {
+      "word": "mean",
+      "meaning": "意思是",
+      "note": "v. /miːn/"
+    },
+    {
+      "word": "modern",
+      "meaning": "现代的，近代的",
+      "note": "adj. /ˈmɒdn/"
+    },
+    {
+      "word": "folk",
+      "meaning": "民间的，民俗的",
+      "note": "adj. /fəʊk/"
+    },
+    {
+      "word": "tale",
+      "meaning": "故事",
+      "note": "n. /teɪl/"
+    },
+    {
+      "word": "emperor",
+      "meaning": "皇帝",
+      "note": "n. /ˈempərə/"
+    },
+    {
+      "word": "porridge",
+      "meaning": "粥",
+      "note": "n. /ˈpɒrɪdʒ/"
+    },
+    {
+      "word": "sweet",
+      "meaning": "甜的",
+      "note": "adj. /swiːt/"
+    },
+    {
+      "word": "plain",
+      "meaning": "无装饰的，简单的，朴素的，单纯的",
+      "note": "adj. /pleɪn/"
+    },
+    {
+      "word": "menu",
+      "meaning": "（尤指餐馆的）菜单",
+      "note": "n. /ˈmenjuː/"
+    },
+    {
+      "word": "medicine",
+      "meaning": "药，药物（尤指口服的药水）",
+      "note": "n. /ˈmedsən/"
+    },
+    {
+      "word": "than",
+      "meaning": "比",
+      "note": "prep. /ðən/"
+    },
+    {
+      "word": "pill",
+      "meaning": "药丸；药片",
+      "note": "n. /pɪl/"
+    },
+    {
+      "word": "remain",
+      "meaning": "继续，依然（保持某种状态）",
+      "note": "v. /rɪˈmeɪn/"
+    },
+    {
+      "word": "another",
+      "meaning": "另一个，别的",
+      "note": "det. /əˈnʌðə/"
+    },
+    {
+      "word": "connection",
+      "meaning": "（两个事实、观点、事件等之间的）联系，关联",
+      "note": "n. /kəˈnekʃən/"
+    },
+    {
+      "word": "prove",
+      "meaning": "证明，证实",
+      "note": "v. /pruːv/"
+    },
+    {
+      "word": "similar",
+      "meaning": "相似的，近似的，类似的",
+      "note": "adj. /ˈsɪmɪlə/"
+    },
+    {
+      "word": "special",
+      "meaning": "特殊的，特别的",
+      "note": "adj. /ˈspeʃəl/"
+    },
+    {
+      "word": "order",
+      "meaning": "顺序，次序",
+      "note": "n. /ˈɔːdə/"
+    },
+    {
+      "word": "pie",
+      "meaning": "水果馅饼，派",
+      "note": "n. /paɪ/"
+    },
+    {
+      "word": "sandwich",
+      "meaning": "三明治，夹心面包",
+      "note": "n. /ˈsænwɪdʒ/"
+    },
+    {
+      "word": "circle",
+      "meaning": "圈出",
+      "note": "v. /ˈsɜːkəl/"
+    },
+    {
+      "word": "scramble",
+      "meaning": "炒（蛋）",
+      "note": "v. /ˈskræmbəl/"
+    },
+    {
+      "word": "slice",
+      "meaning": "片，薄片，切片",
+      "note": "n. /slaɪs/"
+    },
+    {
+      "word": "beat",
+      "meaning": "搅拌，搅打",
+      "note": "v. /biːt/"
+    },
+    {
+      "word": "add",
+      "meaning": "添加，增加",
+      "note": "v. /æd/"
+    },
+    {
+      "word": "salt",
+      "meaning": "盐，食盐",
+      "note": "n. /sɔːlt/"
+    },
+    {
+      "word": "pepper",
+      "meaning": "胡椒粉",
+      "note": "n. /ˈpepə/"
+    },
+    {
+      "word": "oil",
+      "meaning": "植物油，动物油",
+      "note": "n. /ɔɪl/"
+    },
+    {
+      "word": "pan",
+      "meaning": "（长柄有盖的）锅，平底锅",
+      "note": "n. /pæn/"
+    },
+    {
+      "word": "mixture",
+      "meaning": "（尤指烹饪中的）混合液，混合料",
+      "note": "n. /ˈmɪkstʃə/"
+    },
+    {
+      "word": "stir",
+      "meaning": "搅，搅拌，搅动",
+      "note": "v. /stɜː/"
+    },
+    {
+      "word": "youthful",
+      "meaning": "年轻的",
+      "note": "adj. /ˈjuːθfəl/"
+    },
+    {
+      "word": "invite",
+      "meaning": "邀请",
+      "note": "v. /ɪnˈvaɪt/"
+    },
+    {
+      "word": "number",
+      "meaning": "数目，数量",
+      "note": "n. /ˈnʌmbə/"
+    },
+    {
+      "word": "a number of",
+      "meaning": "一些",
+      "note": ""
+    },
+    {
+      "word": "able",
+      "meaning": "有能力做……的，会做……的",
+      "note": "adj. /ˈeɪbəl/"
+    },
+    {
+      "word": "importance",
+      "meaning": "重要（性）",
+      "note": "n. /ɪmˈpɔːtəns/"
+    },
+    {
+      "word": "detail",
+      "meaning": "细节，细微之处",
+      "note": "n. /ˈdiːteɪl/"
+    },
+    {
+      "word": "conclusion",
+      "meaning": "结论",
+      "note": "n. /kənˈkluːʒən/"
+    },
+    {
+      "word": "open-minded",
+      "meaning": "愿意考虑不同意见的；思想开明的",
+      "note": "adj. /ˌəʊpən ˈmaɪndɪd/"
+    },
+    {
+      "word": "ourselves",
+      "meaning": "我们自己",
+      "note": "pron. /aʊəˈselvz/"
+    },
+    {
+      "word": "else",
+      "meaning": "另外，其他；别的，另外的（用于表示不同的人、事物、地方等）",
+      "note": "adv. /els/"
+    },
+    {
+      "word": "differently",
+      "meaning": "不同地；相异地",
+      "note": "adv. /'dɪfrəntlɪ/"
+    },
+    {
+      "word": "instruction",
+      "meaning": "命令，指示",
+      "note": "n. /ɪnˈstrʌkʃən/"
+    },
+    {
+      "word": "daily",
+      "meaning": "每日，每天",
+      "note": "adj. /ˈdeɪli/"
+    },
+    {
+      "word": "daily life",
+      "meaning": "日常生活",
+      "note": ""
+    },
+    {
+      "word": "while",
+      "meaning": "当……时，在……时",
+      "note": "conj. /waɪl/"
+    },
+    {
+      "word": "housework",
+      "meaning": "家务（劳动）",
+      "note": "n. /ˈhaʊswɜːk/"
+    },
+    {
+      "word": "explore",
+      "meaning": "探讨，探究",
+      "note": "v. /ɪkˈsplɔː/"
+    },
+    {
+      "word": "discussion",
+      "meaning": "讨论，谈论，商讨",
+      "note": "n. /dɪˈskʌʃən/"
+    },
+    {
+      "word": "unforgettable",
+      "meaning": "难以忘怀的",
+      "note": "adj. /ˌʌnfəˈɡetəbəl/"
+    },
+    {
+      "word": "discover",
+      "meaning": "发现，找到",
+      "note": "v. /dɪˈskʌvə/"
+    },
+    {
+      "word": "large",
+      "meaning": "巨大的",
+      "note": "adj. /lɑːdʒ/"
+    },
+    {
+      "word": "mosquito",
+      "meaning": "蚊子",
+      "note": "n. /məˈskiːtəʊ/"
+    },
+    {
+      "word": "insect",
+      "meaning": "昆虫",
+      "note": "n. /ˈɪnsekt/"
+    },
+    {
+      "word": "set",
+      "meaning": "确立",
+      "note": "v. /set/"
+    },
+    {
+      "word": "butterfly",
+      "meaning": "蝴蝶",
+      "note": "n. /ˈbʌtəflaɪ/"
+    },
+    {
+      "word": "prince",
+      "meaning": "王子",
+      "note": "n. /prɪns/"
+    },
+    {
+      "word": "monster",
+      "meaning": "妖怪；怪兽，怪物",
+      "note": "n. /ˈmɒnstə/"
+    },
+    {
+      "word": "ever",
+      "meaning": "在任何时候",
+      "note": "adv. /ˈevə/"
+    },
+    {
+      "word": "suffer",
+      "meaning": "（身体或精神上）受苦，遭受（痛苦）",
+      "note": "v. /ˈsʌfə/"
+    },
+    {
+      "word": "stomach",
+      "meaning": "胃",
+      "note": "n. /ˈstʌmək/"
+    },
+    {
+      "word": "totally",
+      "meaning": "完全地，彻底地",
+      "note": "adv. /ˈtəʊtl-i/"
+    },
+    {
+      "word": "Iranian",
+      "meaning": "伊朗人",
+      "note": "n. /ɪˈreɪniən/"
+    },
+    {
+      "word": "flat",
+      "meaning": "平的，平坦的",
+      "note": "adj. /flæt/"
+    },
+    {
+      "word": "stone",
+      "meaning": "石块，石子",
+      "note": "n. /stəʊn/"
+    },
+    {
+      "word": "symbol",
+      "meaning": "代表性人物（事物）",
+      "note": "n. /ˈsɪmbəl/"
+    },
+    {
+      "word": "American",
+      "meaning": "美国的；美国人的",
+      "note": "adj. /əˈmerɪkən/"
+    },
+    {
+      "word": "twin",
+      "meaning": "双胞胎之一的",
+      "note": "adj. /twɪn/"
+    },
+    {
+      "word": "bridge",
+      "meaning": "（事物之间的）桥梁，纽带",
+      "note": "n. /brɪdʒ/"
+    }
+  ]
+}

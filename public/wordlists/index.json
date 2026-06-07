@@ -10,5 +10,23 @@
     "title": "Year 7 Sem 2 Unit 1",
     "description": "七年级第二学期 Unit 1",
     "total": 76
+  },
+  {
+    "file": "year7sem2unit2.json",
+    "title": "Year 7 Sem 2 Unit 2",
+    "description": "七年级第二学期 Unit 2",
+    "total": 50
+  },
+  {
+    "file": "year7sem2unit3.json",
+    "title": "Year 7 Sem 2 Unit 3",
+    "description": "七年级第二学期 Unit 3",
+    "total": 135
+  },
+  {
+    "file": "year7sem2unit6.json",
+    "title": "Year 7 Sem 2 Unit 6",
+    "description": "七年级第二学期 Unit 6",
+    "total": 55
   }
 ]

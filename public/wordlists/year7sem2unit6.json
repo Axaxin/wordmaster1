@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "title": "Year 7 Sem 2 Unit 6",
+    "description": "七年级第二学期 Unit 6",
+    "total": 55
+  },
+  "words": [
+    {
+      "word": "airport",
+      "meaning": "机场，航空站（港）",
+      "note": "n. /ˈeəpɔːt/"
+    },
+    {
+      "word": "burn",
+      "meaning": "（使）（身体部位）灼痛，（使）火辣辣地痛",
+      "note": "v. /bɜːn/"
+    },
+    {
+      "word": "expect",
+      "meaning": "预料，预期，预计",
+      "note": "v. /ɪkˈspekt/"
+    },
+    {
+      "word": "deep",
+      "meaning": "（呼吸或叹息）深深的",
+      "note": "adj. /diːp/"
+    },
+    {
+      "word": "lemon",
+      "meaning": "柠檬",
+      "note": "n. /ˈlemən/"
+    },
+    {
+      "word": "reply",
+      "meaning": "回答，答复",
+      "note": "v. /rɪˈplaɪ/"
+    },
+    {
+      "word": "mouthful",
+      "meaning": "（食物或饮料的）一口，一满口",
+      "note": "n. /ˈmaʊθfʊl/"
+    },
+    {
+      "word": "surprisingly",
+      "meaning": "惊人地，使人吃惊地，出人意料地",
+      "note": "adv. /səˈpraɪzɪŋli/"
+    },
+    {
+      "word": "mask",
+      "meaning": "假面具，假面",
+      "note": "n. /mɑːsk/"
+    },
+    {
+      "word": "normal",
+      "meaning": "正常的",
+      "note": "adj. /ˈnɔːməl/"
+    },
+    {
+      "word": "ancient",
+      "meaning": "古代的",
+      "note": "adj. /ˈeɪnʃənt/"
+    },
+    {
+      "word": "further",
+      "meaning": "更远",
+      "note": "adv. /ˈfɜːðə/"
+    },
+    {
+      "word": "look forward to",
+      "meaning": "（兴奋地）期待，盼望",
+      "note": ""
+    },
+    {
+      "word": "general",
+      "meaning": "大体的，大致的",
+      "note": "adj. /ˈdʒenərəl/"
+    },
+    {
+      "word": "in general",
+      "meaning": "通常，一般情况下；普遍地，总的说来",
+      "note": ""
+    },
+    {
+      "word": "curious",
+      "meaning": "好奇的，好打听的",
+      "note": "adj. /ˈkjʊəriəs/"
+    },
+    {
+      "word": "cultural",
+      "meaning": "文化的；文化上的",
+      "note": "adj. /ˈkʌltʃərəl/"
+    },
+    {
+      "word": "main",
+      "meaning": "最大的，最重要的",
+      "note": "adj. /meɪn/"
+    },
+    {
+      "word": "prefer",
+      "meaning": "更喜欢",
+      "note": "v. /prɪˈfɜː/"
+    },
+    {
+      "word": "interest",
+      "meaning": "吸引力",
+      "note": "n. /ˈɪntrɪst/"
+    },
+    {
+      "word": "trip",
+      "meaning": "旅游；旅行，出行",
+      "note": "n."
+    },
+    {
+      "word": "local",
+      "meaning": "地方性的，当地的，本地的",
+      "note": "adj."
+    },
+    {
+      "word": "places of interest",
+      "meaning": "名胜",
+      "note": ""
+    },
+    {
+      "word": "hotel",
+      "meaning": "宾馆，酒店",
+      "note": "n."
+    },
+    {
+      "word": "comfortable",
+      "meaning": "舒适的，令人舒服的",
+      "note": "adj."
+    },
+    {
+      "word": "other",
+      "meaning": "另外的，其他的",
+      "note": "adj."
+    },
+    {
+      "word": "waterfall",
+      "meaning": "瀑布",
+      "note": "n."
+    },
+    {
+      "word": "powerful",
+      "meaning": "猛烈的，有力的",
+      "note": "adj."
+    },
+    {
+      "word": "thunder",
+      "meaning": "雷声",
+      "note": "n."
+    },
+    {
+      "word": "painting",
+      "meaning": "绘画（作品）",
+      "note": "n."
+    },
+    {
+      "word": "rollercoaster",
+      "meaning": "过山车",
+      "note": "n."
+    },
+    {
+      "word": "huge",
+      "meaning": "巨大的，庞大的",
+      "note": "adj."
+    },
+    {
+      "word": "myself",
+      "meaning": "我自己",
+      "note": "pron."
+    },
+    {
+      "word": "ant",
+      "meaning": "蚂蚁",
+      "note": "n."
+    },
+    {
+      "word": "beauty",
+      "meaning": "美，美丽，漂亮",
+      "note": "n."
+    },
+    {
+      "word": "accept",
+      "meaning": "接手；同意做",
+      "note": "v."
+    },
+    {
+      "word": "award",
+      "meaning": "奖，奖赏；奖品；",
+      "note": "n."
+    },
+    {
+      "word": "understand",
+      "meaning": "了解，知道",
+      "note": "v."
+    },
+    {
+      "word": "traffic",
+      "meaning": "交通，路上行驶的车辆",
+      "note": "n."
+    },
+    {
+      "word": "unexplored",
+      "meaning": "未曾探索的（地方）",
+      "note": "adj."
+    },
+    {
+      "word": "seriously",
+      "meaning": "严重地，非常地",
+      "note": "adv."
+    },
+    {
+      "word": "end",
+      "meaning": "使结束，使停止",
+      "note": "v."
+    },
+    {
+      "word": "spend",
+      "meaning": "度过，花（时间，钱）",
+      "note": "v."
+    },
+    {
+      "word": "dream",
+      "meaning": "梦想，希望",
+      "note": "v."
+    },
+    {
+      "word": "set out",
+      "meaning": "动身踏上",
+      "note": "v."
+    },
+    {
+      "word": "achieve",
+      "meaning": "实现，取得，达到",
+      "note": "v."
+    },
+    {
+      "word": "geographical",
+      "meaning": "地理的，地理学的",
+      "note": "adj."
+    },
+    {
+      "word": "discovery",
+      "meaning": "发现",
+      "note": "n."
+    },
+    {
+      "word": "peak",
+      "meaning": "山顶，山峰",
+      "note": "n."
+    },
+    {
+      "word": "truth",
+      "meaning": "事实，真相",
+      "note": "n."
+    },
+    {
+      "word": "climb",
+      "meaning": "爬（山），登（山）",
+      "note": "v."
+    },
+    {
+      "word": "discover",
+      "meaning": "发现、找到",
+      "note": "v."
+    },
+    {
+      "word": "view",
+      "meaning": "视野",
+      "note": "n."
+    },
+    {
+      "word": "record",
+      "meaning": "记录",
+      "note": "v."
+    },
+    {
+      "word": "description",
+      "meaning": "描述、描写",
+      "note": "n."
+    }
+  ]
+}
