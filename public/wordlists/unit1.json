@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "title": "Unit 1",
+    "description": "示例词库 — 常用基础词汇",
+    "total": 5
+  },
+  "words": [
+    { "word": "abundant", "meaning": "大量的；充裕的", "note": "" },
+    { "word": "consequence", "meaning": "后果；结果", "note": "常用短语：as a consequence of" },
+    { "word": "distinguish", "meaning": "区分；辨别", "note": "distinguish A from B" },
+    { "word": "inevitable", "meaning": "不可避免的", "note": "" },
+    { "word": "run out of", "meaning": "用完；耗尽", "note": "固定搭配，后接名词" }
+  ]
+}
