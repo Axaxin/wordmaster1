@@ -38,14 +38,12 @@ export function useQuiz(words: WordEntry[]): UseQuizReturn {
       }
     }
 
-    setQueue(prev => {
-      if (correct) {
-        const next = prev.slice(1)
-        if (next.length === 0) setIsComplete(true)
-        return next
-      }
-      return [...prev.slice(1), prev[0]]
-    })
+    if (correct) {
+      if (queue.length === 1) setIsComplete(true)
+      setQueue(prev => prev.slice(1))
+    } else {
+      setQueue(prev => [...prev.slice(1), prev[0]])
+    }
 
     return { correct }
   }, [queue, isComplete])
