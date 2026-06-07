@@ -13,24 +13,27 @@ export default function ResultPage() {
   const seconds = Math.floor(((duration_ms ?? 0) % 60000) / 1000)
 
   return (
-    <div style={{ maxWidth: 400, margin: '10vh auto', padding: '0 16px', textAlign: 'center' }}>
-      <h2>✅ 完成！</h2>
-      {unit && <p>词库：{unit}</p>}
-      {rounds !== undefined && <p>共循环 {rounds} 轮</p>}
-      {duration_ms !== undefined && (
-        <p>用时：{minutes > 0 ? `${minutes} 分 ` : ''}{seconds} 秒</p>
-      )}
-      <div style={{ marginTop: 24, display: 'flex', flexDirection: 'column', gap: 8 }}>
+    <div className="max-w-sm mx-auto px-4 pt-[10vh] text-center">
+      <div className="text-6xl mb-4">✅</div>
+      <h2 className="text-2xl font-bold text-gray-900 mb-6">完成！</h2>
+      <div className="bg-gray-50 border border-gray-200 rounded-xl p-5 mb-8 text-left space-y-2">
+        {unit && <p className="text-gray-600 m-0">词库：<span className="font-medium text-gray-900">{unit}</span></p>}
+        {rounds !== undefined && <p className="text-gray-600 m-0">共循环：<span className="font-medium text-gray-900">{rounds} 轮</span></p>}
+        {duration_ms !== undefined && (
+          <p className="text-gray-600 m-0">用时：<span className="font-medium text-gray-900">{minutes > 0 ? `${minutes} 分 ` : ''}{seconds} 秒</span></p>
+        )}
+      </div>
+      <div className="flex flex-col gap-3">
         {unit && (
-          <Link to={`/quiz/${unit}`}>
-            <button style={{ width: '100%', padding: '10px', fontSize: 16 }}>再来一次</button>
+          <Link to={`/quiz/${unit}`} className="block w-full py-2.5 text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg transition-colors no-underline">
+            再来一次
           </Link>
         )}
-        <Link to="/home">
-          <button style={{ width: '100%', padding: '10px', fontSize: 16 }}>选其他词库</button>
+        <Link to="/home" className="block w-full py-2.5 text-base font-medium text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 rounded-lg transition-colors no-underline">
+          选其他词库
         </Link>
-        <Link to="/stats">
-          <button style={{ width: '100%', padding: '10px', fontSize: 16 }}>查看我的统计</button>
+        <Link to="/stats" className="block w-full py-2.5 text-base font-medium text-indigo-600 hover:text-indigo-700 rounded-lg transition-colors no-underline">
+          查看我的统计
         </Link>
       </div>
     </div>
