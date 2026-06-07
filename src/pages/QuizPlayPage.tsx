@@ -19,6 +19,7 @@ function QuizArea({ words, unit, username, sessionId, startTime }: QuizAreaProps
   const quiz = useQuiz(words)
   const [feedback, setFeedback] = useState<string | null>(null)
   const [input, setInput] = useState('')
+  const [paused, setPaused] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
   const attemptCount = useRef<Record<string, number>>({})
 
@@ -28,6 +29,18 @@ function QuizArea({ words, unit, username, sessionId, startTime }: QuizAreaProps
     api.completeSession({ session_id: sessionId, student: username, unit, rounds: quiz.rounds, duration_ms })
       .finally(() => navigate('/result', { state: { unit, rounds: quiz.rounds, duration_ms } }))
   }, [quiz.isComplete])
+
+  useEffect(() => {
+    if (!quiz.current || paused) return
+    const utterance = new SpeechSynthesisUtterance(quiz.current.word)
+    utterance.lang = 'en-US'
+    speechSynthesis.cancel()
+    speechSynthesis.speak(utterance)
+  }, [quiz.current?.word])
+
+  useEffect(() => {
+    if (feedback === null && !paused) inputRef.current?.focus()
+  }, [feedback])
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault()
@@ -50,10 +63,7 @@ function QuizArea({ words, unit, username, sessionId, startTime }: QuizAreaProps
 
     if (!correct) {
       setFeedback(word)
-      setTimeout(() => {
-        setFeedback(null)
-        inputRef.current?.focus()
-      }, 1500)
+      setTimeout(() => setFeedback(null), 3000)
     } else {
       inputRef.current?.focus()
     }
@@ -63,6 +73,15 @@ function QuizArea({ words, unit, username, sessionId, startTime }: QuizAreaProps
 
   return (
     <div className="max-w-lg mx-auto px-4 py-6">
+      <div className="flex justify-end mb-2">
+        <button
+          onClick={() => setPaused(true)}
+          className="text-sm text-gray-400 hover:text-gray-600 px-2 py-1"
+        >
+          暂停
+        </button>
+      </div>
+
       <WordCard word={quiz.current} remaining={quiz.remaining} rounds={quiz.rounds} />
 
       {feedback && (
@@ -71,28 +90,46 @@ function QuizArea({ words, unit, username, sessionId, startTime }: QuizAreaProps
         </div>
       )}
 
-      <form onSubmit={handleSubmit} className="space-y-3">
-        <input
-          ref={inputRef}
-          type="text"
-          value={input}
-          onChange={e => setInput(e.target.value)}
-          placeholder="输入英文单词/词组"
-          autoFocus
-          autoComplete="off"
-          autoCapitalize="none"
-          spellCheck={false}
-          disabled={feedback !== null}
-          className="w-full px-3 py-3 text-lg border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 disabled:bg-gray-50 disabled:text-gray-400"
-        />
-        <button
-          type="submit"
-          disabled={!input.trim() || feedback !== null}
-          className="w-full py-3 text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-        >
-          提交
-        </button>
-      </form>
+      {paused ? (
+        <div className="text-center py-8 space-y-3">
+          <p className="text-gray-500 mb-4">已暂停</p>
+          <button
+            onClick={() => setPaused(false)}
+            className="w-full py-2.5 text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg transition-colors"
+          >
+            继续
+          </button>
+          <button
+            onClick={() => navigate(`/quiz/${unit}/play`, { replace: true })}
+            className="w-full py-2.5 text-base font-medium text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 rounded-lg transition-colors"
+          >
+            重来
+          </button>
+        </div>
+      ) : (
+        <form onSubmit={handleSubmit} className="space-y-3">
+          <input
+            ref={inputRef}
+            type="text"
+            value={input}
+            onChange={e => setInput(e.target.value)}
+            placeholder="输入英文单词/词组"
+            autoFocus
+            autoComplete="off"
+            autoCapitalize="none"
+            spellCheck={false}
+            disabled={feedback !== null}
+            className="w-full px-3 py-3 text-lg border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 disabled:bg-gray-50 disabled:text-gray-400"
+          />
+          <button
+            type="submit"
+            disabled={!input.trim() || feedback !== null}
+            className="w-full py-3 text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+          >
+            提交
+          </button>
+        </form>
+      )}
     </div>
   )
 }
