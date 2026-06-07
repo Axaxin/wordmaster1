@@ -20,7 +20,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   }
 
   const { student, unit, mode, total_words } = body
-  if (!student || !unit || !mode || !total_words) {
+  if (!student || !unit || !mode || total_words == null) {
     return Response.json({ error: 'Missing required fields' }, { status: 400 })
   }
 
