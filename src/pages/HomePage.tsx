@@ -22,34 +22,29 @@ export default function HomePage() {
   }
 
   return (
-    <div style={{ maxWidth: 600, margin: '0 auto', padding: 16 }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <h1>WordMaster</h1>
-        <div>
-          <span style={{ marginRight: 12 }}>👤 {username}</span>
-          <Link to="/stats" style={{ marginRight: 12 }}>我的统计</Link>
-          <button onClick={handleLogout}>退出</button>
+    <div className="max-w-2xl mx-auto px-4 py-6">
+      <div className="flex justify-between items-center mb-8">
+        <h1 className="text-2xl font-bold text-gray-900">WordMaster</h1>
+        <div className="flex items-center gap-3 text-sm">
+          <span className="text-gray-500">👤 {username}</span>
+          <Link to="/stats" className="text-indigo-600 hover:text-indigo-700 font-medium">我的统计</Link>
+          <button onClick={handleLogout} className="text-gray-500 hover:text-gray-700">退出</button>
         </div>
       </div>
-      <h2>选择词库</h2>
-      {loading && <p>加载中…</p>}
-      <div style={{ display: 'grid', gap: 12 }}>
+      <h2 className="text-lg font-semibold text-gray-900 mb-3">选择词库</h2>
+      {loading && <p className="text-gray-500">加载中…</p>}
+      <div className="flex flex-col gap-3">
         {lists.map(item => (
           <Link
             key={item.file}
             to={`/quiz/${item.file.replace('.json', '')}`}
-            style={{
-              display: 'block',
-              padding: 16,
-              border: '1px solid #ddd',
-              borderRadius: 8,
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
+            className="block p-4 bg-white border border-gray-200 rounded-xl hover:bg-gray-50 transition-colors text-gray-900 no-underline"
           >
-            <strong>{item.title}</strong>
-            <p style={{ margin: '4px 0 0', color: '#666' }}>{item.description}</p>
-            <small>{item.total} 个词</small>
+            <div className="flex justify-between items-start">
+              <strong className="font-semibold">{item.title}</strong>
+              <span className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">{item.total} 词</span>
+            </div>
+            <p className="text-sm text-gray-500 mt-1 mb-0">{item.description}</p>
           </Link>
         ))}
       </div>
