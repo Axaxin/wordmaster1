@@ -36,11 +36,11 @@ function QuizArea({ words, unit, username, sessionId, startTime }: QuizAreaProps
     utterance.lang = 'en-US'
     speechSynthesis.cancel()
     speechSynthesis.speak(utterance)
-  }, [quiz.current?.word])
+  }, [quiz.current?.word, paused])
 
   useEffect(() => {
     if (feedback === null && !paused) inputRef.current?.focus()
-  }, [feedback])
+  }, [feedback, paused])
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault()
