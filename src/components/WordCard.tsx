@@ -28,6 +28,7 @@ export default function WordCard({ word, remaining, rounds }: Props) {
         onClick={speak}
         className="rounded-full bg-indigo-100 hover:bg-indigo-200 p-2.5 text-indigo-700 transition-colors"
         title="朗读单词"
+        aria-label="朗读单词"
       >
         🔊
       </button>
