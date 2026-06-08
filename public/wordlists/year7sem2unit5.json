@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "title": "Year 7 Sem 2 Unit 5",
+    "description": "七年级第二学期 Unit 5",
+    "total": 41
+  },
+  "words": [
+    {
+      "word": "plateau",
+      "meaning": "高原",
+      "note": "n. /ˈplætəʊ/"
+    },
+    {
+      "word": "cloud",
+      "meaning": "云",
+      "note": "n. /klaʊd/"
+    },
+    {
+      "word": "soft",
+      "meaning": "柔软的",
+      "note": "adj. /sɒft/"
+    },
+    {
+      "word": "brightly",
+      "meaning": "明亮地",
+      "note": "adv. /ˈbraɪtli/"
+    },
+    {
+      "word": "lotus",
+      "meaning": "莲花（图案），荷花（图案）",
+      "note": "n. /ˈləʊtəs/"
+    },
+    {
+      "word": "sky",
+      "meaning": "天，天空",
+      "note": "n. /skaɪ/"
+    },
+    {
+      "word": "calm",
+      "meaning": "镇静的，沉着的；心平气和的",
+      "note": "adj. /kɑːm/"
+    },
+    {
+      "word": "above",
+      "meaning": "在（……）上方",
+      "note": "prep. /əˈbʌv/"
+    },
+    {
+      "word": "express",
+      "meaning": "表达；表示；表现",
+      "note": "v. /ɪkˈspres/"
+    },
+    {
+      "word": "grassland",
+      "meaning": "草原",
+      "note": "n. /ˈɡrɑːslænd/"
+    },
+    {
+      "word": "field",
+      "meaning": "田地，田野",
+      "note": "n. /fiːld/"
+    },
+    {
+      "word": "few",
+      "meaning": "很少，不多",
+      "note": "adj. /fjuː/"
+    },
+    {
+      "word": "places of interest",
+      "meaning": "名胜",
+      "note": ""
+    },
+    {
+      "word": "hotel",
+      "meaning": "宾馆，酒店",
+      "note": "n. /həʊˈtel/"
+    },
+    {
+      "word": "comfortable",
+      "meaning": "舒适的，令人舒服的",
+      "note": "adj. /ˈkʌmftəbəl/"
+    },
+    {
+      "word": "postcard",
+      "meaning": "明信片",
+      "note": "n. /ˈpəʊstkɑːd/"
+    },
+    {
+      "word": "waterfall",
+      "meaning": "瀑布",
+      "note": "n. /ˈwɔːtəfɔːl/"
+    },
+    {
+      "word": "south",
+      "meaning": "在南方的",
+      "note": "adj. /saʊθ/"
+    },
+    {
+      "word": "powerful",
+      "meaning": "猛烈的，有力的",
+      "note": "adj. /ˈpaʊəfəl/"
+    },
+    {
+      "word": "thunder",
+      "meaning": "雷声",
+      "note": "n. /ˈθʌndə/"
+    },
+    {
+      "word": "painting",
+      "meaning": "绘画（作品）",
+      "note": "n. /ˈpeɪntɪŋ/"
+    },
+    {
+      "word": "roller coaster",
+      "meaning": "过山车，云霄飞车",
+      "note": ""
+    },
+    {
+      "word": "huge",
+      "meaning": "巨大的，庞大的；极大量的",
+      "note": "adj. /hjuːdʒ/"
+    },
+    {
+      "word": "ant",
+      "meaning": "蚂蚁",
+      "note": "n. /ænt/"
+    },
+    {
+      "word": "beauty",
+      "meaning": "美，美丽，漂亮",
+      "note": "n. /ˈbjuːti/"
+    },
+    {
+      "word": "discuss",
+      "meaning": "商讨，谈论，讨论",
+      "note": "v. /dɪˈskʌs/"
+    },
+    {
+      "word": "accept",
+      "meaning": "接受；同意做",
+      "note": "v. /əkˈsept/"
+    },
+    {
+      "word": "award",
+      "meaning": "奖，奖赏；奖品；奖金",
+      "note": "n. /əˈwɔːd/"
+    },
+    {
+      "word": "traffic",
+      "meaning": "路上行驶的车辆，交通",
+      "note": "n. /ˈtræfɪk/"
+    },
+    {
+      "word": "unexplored",
+      "meaning": "（地方）未曾探索的，未经勘察的",
+      "note": "adj. /ˌʌnɪkˈsplɔːd/"
+    },
+    {
+      "word": "seriously",
+      "meaning": "严重地，非常",
+      "note": "adv. /ˈsɪəriəsli/"
+    },
+    {
+      "word": "achieve",
+      "meaning": "实现；（尤指经过努力）取得，达到",
+      "note": "v. /əˈtʃiːv/"
+    },
+    {
+      "word": "geographical",
+      "meaning": "地理的；地理学的",
+      "note": "adj. /ˌdʒiːəˈɡræfɪkəl/"
+    },
+    {
+      "word": "discovery",
+      "meaning": "被发现的事实（事物）",
+      "note": "n. /dɪsˈkʌvəri/"
+    },
+    {
+      "word": "peak",
+      "meaning": "山顶，山峰；山，山岳",
+      "note": "n. /piːk/"
+    },
+    {
+      "word": "truth",
+      "meaning": "事实，真相，实情",
+      "note": "n. /truːθ/"
+    },
+    {
+      "word": "climb",
+      "meaning": "爬（山），登（山）",
+      "note": "v. /klaɪm/"
+    },
+    {
+      "word": "wood",
+      "meaning": "木头；木材，木料",
+      "note": "n. /wʊd/"
+    },
+    {
+      "word": "disappear",
+      "meaning": "消失，不见",
+      "note": "v. /ˌdɪsəˈpɪə/"
+    },
+    {
+      "word": "glacier",
+      "meaning": "冰川",
+      "note": "n. /ˈɡlæsiə/"
+    },
+    {
+      "word": "national",
+      "meaning": "国家的，全国性的",
+      "note": "adj. /ˈnæʃənəl/"
+    }
+  ]
+}

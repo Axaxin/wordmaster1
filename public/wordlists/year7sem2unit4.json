@@ -1,0 +1,304 @@
+{
+  "meta": {
+    "title": "Year 7 Sem 2 Unit 4",
+    "description": "七年级第二学期 Unit 4",
+    "total": 59
+  },
+  "words": [
+    {
+      "word": "dull",
+      "meaning": "愚笨的，迟钝的",
+      "note": "adj. /dʌl/"
+    },
+    {
+      "word": "imagine",
+      "meaning": "想象",
+      "note": "v. /ɪˈmædʒɪn/"
+    },
+    {
+      "word": "alone",
+      "meaning": "单独，独自",
+      "note": "adv. /əˈləʊn/"
+    },
+    {
+      "word": "might",
+      "meaning": "也许，可能，大概",
+      "note": "v. /maɪt/"
+    },
+    {
+      "word": "tool",
+      "meaning": "工具",
+      "note": "n. /tuːl/"
+    },
+    {
+      "word": "list",
+      "meaning": "名单，清单，目录",
+      "note": "n. /lɪst/"
+    },
+    {
+      "word": "something",
+      "meaning": "某物；某事；某种东西",
+      "note": "pron. /ˈsʌmθɪŋ/"
+    },
+    {
+      "word": "novel",
+      "meaning": "（长篇）小说",
+      "note": "n. /ˈnɒvəl/"
+    },
+    {
+      "word": "magazine",
+      "meaning": "杂志，期刊",
+      "note": "n. /ˌmæɡəˈziːn/"
+    },
+    {
+      "word": "solar",
+      "meaning": "利用太阳能的",
+      "note": "adj. /ˈsəʊlə/"
+    },
+    {
+      "word": "media",
+      "meaning": "媒介物",
+      "note": "n. /ˈmiːdiə/"
+    },
+    {
+      "word": "bored",
+      "meaning": "厌烦的，不感兴趣的；烦闷的",
+      "note": "adj. /bɔːd/"
+    },
+    {
+      "word": "feeling",
+      "meaning": "感觉",
+      "note": "n. /ˈfiːlɪŋ/"
+    },
+    {
+      "word": "lift sb’s spirits",
+      "meaning": "使某人开心起来",
+      "note": ""
+    },
+    {
+      "word": "funny",
+      "meaning": "使人发笑的，有趣的；滑稽的",
+      "note": "adj. /ˈfʌni/"
+    },
+    {
+      "word": "present",
+      "meaning": "礼物，赠品",
+      "note": "n. /ˈprezənt/"
+    },
+    {
+      "word": "likely",
+      "meaning": "可能的；可能发生的；可能属实的",
+      "note": "adj. /ˈlaɪkli/"
+    },
+    {
+      "word": "local",
+      "meaning": "地方性的，当（本）地的",
+      "note": "adj. /ˈləʊkəl/"
+    },
+    {
+      "word": "designer",
+      "meaning": "（服装、家具、设备等的）设计师，设计者",
+      "note": "n. /dɪˈzaɪnə/"
+    },
+    {
+      "word": "guide",
+      "meaning": "指南，指南手册",
+      "note": "n. /ɡaɪd/"
+    },
+    {
+      "word": "describe",
+      "meaning": "描述，描写",
+      "note": "v. /dɪˈskraɪb/"
+    },
+    {
+      "word": "landscape",
+      "meaning": "（陆上的）风景，景致，景色",
+      "note": "n. /ˈlændskeɪp/"
+    },
+    {
+      "word": "common",
+      "meaning": "常见的，普遍的",
+      "note": "adj. /ˈkɒmən/"
+    },
+    {
+      "word": "Mount",
+      "meaning": "（书面缩写为Mt）（用作山名的一部分）……山，……峰",
+      "note": "n. /maʊnt/"
+    },
+    {
+      "word": "tide",
+      "meaning": "海潮，潮汐",
+      "note": "n. /taɪd/"
+    },
+    {
+      "word": "exhibition",
+      "meaning": "展览（会）",
+      "note": "n. /ˌeksəˈbɪʃən/"
+    },
+    {
+      "word": "tour",
+      "meaning": "参观，游览",
+      "note": "n. /tʊə/"
+    },
+    {
+      "word": "pound",
+      "meaning": "英镑",
+      "note": "n. /paʊnd/"
+    },
+    {
+      "word": "lungfish",
+      "meaning": "肺鱼",
+      "note": "n. /ˈlʌŋfɪʃ/"
+    },
+    {
+      "word": "lung",
+      "meaning": "肺",
+      "note": "n. /lʌŋ/"
+    },
+    {
+      "word": "scientist",
+      "meaning": "科学家",
+      "note": "n. /ˈsaɪəntɪst/"
+    },
+    {
+      "word": "behaviour",
+      "meaning": "行为，举止",
+      "note": "n. /bɪˈheɪvjə/"
+    },
+    {
+      "word": "develop",
+      "meaning": "（使）成长，（使）发展",
+      "note": "v. /dɪˈveləp/"
+    },
+    {
+      "word": "land",
+      "meaning": "陆地",
+      "note": "n. /lænd/"
+    },
+    {
+      "word": "aloud",
+      "meaning": "出声地",
+      "note": "adv. /əˈlaʊd/"
+    },
+    {
+      "word": "salty",
+      "meaning": "咸的，含盐的",
+      "note": "adj. /ˈsɔːlti/"
+    },
+    {
+      "word": "lie",
+      "meaning": "躺，平卧",
+      "note": "v. /laɪ/"
+    },
+    {
+      "word": "surface",
+      "meaning": "表面，面",
+      "note": "n. /ˈsɜːfɪs/"
+    },
+    {
+      "word": "level",
+      "meaning": "水平高度；相对高度",
+      "note": "n. /ˈlevəl/"
+    },
+    {
+      "word": "less",
+      "meaning": "不那么多，更（较）少",
+      "note": "det. /les/"
+    },
+    {
+      "word": "suggest",
+      "meaning": "暗示，暗指",
+      "note": "v. /səˈdʒest/"
+    },
+    {
+      "word": "such as",
+      "meaning": "像，诸如，例如",
+      "note": ""
+    },
+    {
+      "word": "snake",
+      "meaning": "蛇",
+      "note": "n. /sneɪk/"
+    },
+    {
+      "word": "notice",
+      "meaning": "看到；听到；感觉到；注意到",
+      "note": "v. /ˈnəʊtɪs/"
+    },
+    {
+      "word": "social",
+      "meaning": "社交的",
+      "note": "adj. /ˈsəʊʃəl/"
+    },
+    {
+      "word": "screen",
+      "meaning": "屏幕",
+      "note": "n. /skriːn/"
+    },
+    {
+      "word": "couch",
+      "meaning": "长沙发",
+      "note": "n. /kaʊtʃ/"
+    },
+    {
+      "word": "couch potato",
+      "meaning": "老泡在电视机前的人",
+      "note": ""
+    },
+    {
+      "word": "sore",
+      "meaning": "疼痛的；酸痛的",
+      "note": "adj. /sɔː/"
+    },
+    {
+      "word": "neck",
+      "meaning": "颈，脖子",
+      "note": "n. /nek/"
+    },
+    {
+      "word": "deaf",
+      "meaning": "不愿听的，不肯听取的",
+      "note": "adj. /def/"
+    },
+    {
+      "word": "real",
+      "meaning": "实际存在的，非想象的",
+      "note": "adj. /rɪəl/"
+    },
+    {
+      "word": "balanced",
+      "meaning": "均衡的",
+      "note": "adj. /ˈbælənst/"
+    },
+    {
+      "word": "outside",
+      "meaning": "在室外",
+      "note": "adv. /aʊtˈsaɪd/"
+    },
+    {
+      "word": "jog",
+      "meaning": "慢跑",
+      "note": "v. /dʒɒɡ/"
+    },
+    {
+      "word": "fresh",
+      "meaning": "新鲜的",
+      "note": "adj. /freʃ/"
+    },
+    {
+      "word": "tennis",
+      "meaning": "网球（运动）",
+      "note": "n. /ˈtenɪs/"
+    },
+    {
+      "word": "hike",
+      "meaning": "（在……）徒步旅行，远足",
+      "note": "v. /haɪk/"
+    },
+    {
+      "word": "ours",
+      "meaning": "（属于）我们的",
+      "note": "pron. /aʊəz/"
+    }
+  ]
+}
