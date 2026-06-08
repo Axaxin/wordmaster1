@@ -37,6 +37,13 @@ export default function HomePage() {
           <strong className="font-semibold">错词复习</strong>
           <p className="text-sm text-gray-500 mt-1 mb-0">重新测试统计中的高频错词</p>
         </Link>
+        <Link
+          to="/quiz/forms"
+          className="block p-4 bg-white border border-gray-200 rounded-xl hover:bg-gray-50 transition-colors text-gray-900 no-underline"
+        >
+          <strong className="font-semibold">比较变化练习</strong>
+          <p className="text-sm text-gray-500 mt-1 mb-0">测试形容词、副词的比较级与最高级变化</p>
+        </Link>
       </div>
     </div>
   )
