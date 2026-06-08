@@ -161,7 +161,9 @@ export default function QuizPlayPage() {
 
     if (stateWords) {
       if (!stateWords.length) {
-        const fallback = location.state?.unit === 'forms' ? '/quiz/forms' : '/quiz/errors'
+        const fallback = location.state?.unit === 'forms' ? '/quiz/forms'
+          : location.state?.unit === 'verbs' ? '/quiz/verbs'
+          : '/quiz/errors'
         navigate(fallback, { replace: true })
         return
       }
@@ -176,7 +178,9 @@ export default function QuizPlayPage() {
     }
 
     if (!unitParam) {
-      const fallback = location.pathname.startsWith('/quiz/forms') ? '/quiz/forms' : '/quiz/errors'
+      const fallback = location.pathname.startsWith('/quiz/forms') ? '/quiz/forms'
+        : location.pathname.startsWith('/quiz/verbs') ? '/quiz/verbs'
+        : '/quiz/errors'
       navigate(fallback, { replace: true })
       return
     }

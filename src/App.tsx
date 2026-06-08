@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage'
 import WordListPage from './pages/WordListPage'
 import ErrorPreviewPage from './pages/ErrorPreviewPage'
 import FormListPage from './pages/FormListPage'
+import VerbListPage from './pages/VerbListPage'
 import QuizPlayPage from './pages/QuizPlayPage'
 import ResultPage from './pages/ResultPage'
 import StatsPage from './pages/StatsPage'
@@ -26,6 +27,8 @@ function AppRoutes() {
       <Route path="/quiz/errors/play" element={<RequireAuth><QuizPlayPage /></RequireAuth>} />
       <Route path="/quiz/forms" element={<RequireAuth><FormListPage /></RequireAuth>} />
       <Route path="/quiz/forms/play" element={<RequireAuth><QuizPlayPage /></RequireAuth>} />
+      <Route path="/quiz/verbs" element={<RequireAuth><VerbListPage /></RequireAuth>} />
+      <Route path="/quiz/verbs/play" element={<RequireAuth><QuizPlayPage /></RequireAuth>} />
       <Route path="/result" element={<RequireAuth><ResultPage /></RequireAuth>} />
       <Route path="/stats" element={<RequireAuth><StatsPage /></RequireAuth>} />
     </Routes>
