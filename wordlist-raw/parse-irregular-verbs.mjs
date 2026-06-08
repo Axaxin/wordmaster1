@@ -33,13 +33,13 @@ const parts = [
   {
     file: 'irregverbs-part2.json',
     title: '不规则动词 第二组',
-    description: 'freeze → rise',
+    description: 'freeze → run',
     slice: rows.slice(35, 71),
   },
   {
     file: 'irregverbs-part3.json',
     title: '不规则动词 第三组',
-    description: 'run → write',
+    description: 'say → write',
     slice: rows.slice(71),
   },
 ]

@@ -72,14 +72,14 @@
   {
     "file": "irregverbs-part2.json",
     "title": "不规则动词 第二组",
-    "description": "freeze → rise",
+    "description": "freeze → run",
     "total": 36,
     "hasIrregVerbs": true
   },
   {
     "file": "irregverbs-part3.json",
     "title": "不规则动词 第三组",
-    "description": "run → write",
+    "description": "say → write",
     "total": 35,
     "hasIrregVerbs": true
   }
