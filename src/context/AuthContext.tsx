@@ -12,16 +12,16 @@ const STORAGE_KEY = 'wm_username'
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [username, setUsername] = useState<string | null>(
-    () => sessionStorage.getItem(STORAGE_KEY)
+    () => localStorage.getItem(STORAGE_KEY)
   )
 
   const login = (name: string) => {
-    sessionStorage.setItem(STORAGE_KEY, name)
+    localStorage.setItem(STORAGE_KEY, name)
     setUsername(name)
   }
 
   const logout = () => {
-    sessionStorage.removeItem(STORAGE_KEY)
+    localStorage.removeItem(STORAGE_KEY)
     setUsername(null)
   }
 

@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from 'react'
+import { useEffect, useState, type FormEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { api } from '../lib/api'
@@ -7,8 +7,12 @@ export default function LoginPage() {
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
-  const { login } = useAuth()
+  const { login, username } = useAuth()
   const navigate = useNavigate()
+
+  useEffect(() => {
+    if (username) navigate('/home', { replace: true })
+  }, [username, navigate])
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault()
@@ -19,7 +23,7 @@ export default function LoginPage() {
     try {
       await api.login(username)
       login(username)
-      navigate('/home')
+      // navigation happens via useEffect above once username state commits
     } catch {
       setError('登录失败，请重试')
     } finally {
