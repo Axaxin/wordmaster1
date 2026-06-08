@@ -170,10 +170,14 @@ export default function QuizPlayPage() {
           setSessionId(session_id)
           setWords(stateWords)
         })
+        .catch(() => navigate('/home'))
       return
     }
 
-    if (!unitParam) return
+    if (!unitParam) {
+      navigate('/quiz/errors', { replace: true })
+      return
+    }
     api.getWordList(`${unitParam}.json`).then(async data => {
       const { session_id } = await api.startSession({
         student: username,
@@ -185,7 +189,7 @@ export default function QuizPlayPage() {
       setSessionId(session_id)
       setWords(data.words)
     })
-  }, [unitParam, username, sessionKey, location.state])
+  }, [unitParam, username, sessionKey, location.state, navigate])
 
   const unit = location.state?.words ? 'errors' : (unitParam ?? '')
 
