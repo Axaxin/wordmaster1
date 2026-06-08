@@ -161,10 +161,11 @@ export default function QuizPlayPage() {
 
     if (stateWords) {
       if (!stateWords.length) {
-        navigate('/quiz/errors', { replace: true })
+        const fallback = location.state?.unit === 'forms' ? '/quiz/forms' : '/quiz/errors'
+        navigate(fallback, { replace: true })
         return
       }
-      api.startSession({ student: username, unit: 'errors', mode: 'queue_cycle', total_words: stateWords.length })
+      api.startSession({ student: username, unit: location.state?.unit ?? 'errors', mode: 'queue_cycle', total_words: stateWords.length })
         .then(({ session_id }) => {
           startTime.current = Date.now()
           setSessionId(session_id)
@@ -175,7 +176,8 @@ export default function QuizPlayPage() {
     }
 
     if (!unitParam) {
-      navigate('/quiz/errors', { replace: true })
+      const fallback = location.pathname.startsWith('/quiz/forms') ? '/quiz/forms' : '/quiz/errors'
+      navigate(fallback, { replace: true })
       return
     }
     api.getWordList(`${unitParam}.json`).then(async data => {
@@ -191,7 +193,7 @@ export default function QuizPlayPage() {
     })
   }, [unitParam, username, sessionKey, location.state, navigate])
 
-  const unit = location.state?.words ? 'errors' : (unitParam ?? '')
+  const unit = location.state?.words ? (location.state?.unit ?? 'errors') : (unitParam ?? '')
 
   if (!words || sessionId === null) return <p className="p-4 text-gray-500">加载中…</p>
 

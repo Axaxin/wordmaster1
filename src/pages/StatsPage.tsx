@@ -76,7 +76,9 @@ export default function StatsPage() {
           return (
             <div key={s.session_id} className="bg-white border border-gray-200 rounded-xl px-4 py-3">
               <div className="flex justify-between items-center">
-                <strong className="font-semibold text-gray-900">{s.unit === 'errors' ? '错词复习' : s.unit}</strong>
+                <strong className="font-semibold text-gray-900">
+                  {s.unit === 'errors' ? '错词复习' : s.unit === 'forms' ? '比较变化练习' : s.unit}
+                </strong>
                 <span className="text-sm text-gray-400">{date}</span>
               </div>
               {s.finished_at ? (
