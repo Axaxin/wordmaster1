@@ -1,0 +1,514 @@
+{
+  "meta": {
+    "title": "Year 7 Sem 2 Foundation: Comparison",
+    "description": "初一下比较级/最高级补缺：基础形容词、副词与常用动词",
+    "total": 101
+  },
+  "words": [
+    {
+      "word": "big",
+      "meaning": "大的",
+      "note": "adj. 反义：small；比较级 bigger；最高级 biggest"
+    },
+    {
+      "word": "small",
+      "meaning": "小的",
+      "note": "adj. 反义：big；比较级 smaller；最高级 smallest"
+    },
+    {
+      "word": "large",
+      "meaning": "大的，巨大的",
+      "note": "adj. 近义：big；反义：small"
+    },
+    {
+      "word": "tiny",
+      "meaning": "极小的，微小的",
+      "note": "adj. 近义：very small；反义：huge"
+    },
+    {
+      "word": "huge",
+      "meaning": "巨大的，庞大的",
+      "note": "adj. 近义：very big；反义：tiny"
+    },
+    {
+      "word": "long",
+      "meaning": "长的",
+      "note": "adj. 反义：short；比较级 longer；最高级 longest"
+    },
+    {
+      "word": "short",
+      "meaning": "短的；矮的",
+      "note": "adj. 反义：long/tall；比较级 shorter；最高级 shortest"
+    },
+    {
+      "word": "tall",
+      "meaning": "高的",
+      "note": "adj. 反义：short；比较级 taller；最高级 tallest"
+    },
+    {
+      "word": "high",
+      "meaning": "高的；高地",
+      "note": "adj./adv. 反义：low；比较级 higher；最高级 highest"
+    },
+    {
+      "word": "low",
+      "meaning": "低的；低地",
+      "note": "adj./adv. 反义：high；比较级 lower；最高级 lowest"
+    },
+    {
+      "word": "deep",
+      "meaning": "深的",
+      "note": "adj. 反义：shallow；比较级 deeper；最高级 deepest"
+    },
+    {
+      "word": "shallow",
+      "meaning": "浅的",
+      "note": "adj. 反义：deep"
+    },
+    {
+      "word": "wide",
+      "meaning": "宽的",
+      "note": "adj. 反义：narrow；比较级 wider；最高级 widest"
+    },
+    {
+      "word": "narrow",
+      "meaning": "窄的，狭窄的",
+      "note": "adj. 反义：wide"
+    },
+    {
+      "word": "thick",
+      "meaning": "厚的；浓的",
+      "note": "adj. 反义：thin；比较级 thicker；最高级 thickest"
+    },
+    {
+      "word": "thin",
+      "meaning": "薄的；瘦的",
+      "note": "adj. 反义：thick/fat；比较级 thinner；最高级 thinnest"
+    },
+    {
+      "word": "heavy",
+      "meaning": "重的",
+      "note": "adj. 反义：light；比较级 heavier；最高级 heaviest"
+    },
+    {
+      "word": "light",
+      "meaning": "轻的；明亮的",
+      "note": "adj. 反义：heavy/dark；比较级 lighter；最高级 lightest"
+    },
+    {
+      "word": "fast",
+      "meaning": "快的；快地",
+      "note": "adj./adv. 反义：slow；比较级 faster；最高级 fastest"
+    },
+    {
+      "word": "slow",
+      "meaning": "慢的",
+      "note": "adj. 反义：fast；比较级 slower；最高级 slowest"
+    },
+    {
+      "word": "quick",
+      "meaning": "快的，迅速的",
+      "note": "adj. 近义：fast；副词 quickly"
+    },
+    {
+      "word": "quickly",
+      "meaning": "快速地，迅速地",
+      "note": "adv. 近义：fast；反义：slowly"
+    },
+    {
+      "word": "slowly",
+      "meaning": "慢慢地",
+      "note": "adv. 反义：quickly"
+    },
+    {
+      "word": "early",
+      "meaning": "早的；早地",
+      "note": "adj./adv. 反义：late；比较级 earlier；最高级 earliest"
+    },
+    {
+      "word": "late",
+      "meaning": "迟的；晚地",
+      "note": "adj./adv. 反义：early；比较级 later；最高级 latest"
+    },
+    {
+      "word": "new",
+      "meaning": "新的",
+      "note": "adj. 反义：old；比较级 newer；最高级 newest"
+    },
+    {
+      "word": "old",
+      "meaning": "旧的；年老的",
+      "note": "adj. 反义：new/young；比较级 older；最高级 oldest"
+    },
+    {
+      "word": "young",
+      "meaning": "年轻的，幼小的",
+      "note": "adj. 反义：old；比较级 younger；最高级 youngest"
+    },
+    {
+      "word": "fresh",
+      "meaning": "新鲜的",
+      "note": "adj. 反义：stale"
+    },
+    {
+      "word": "stale",
+      "meaning": "不新鲜的，走味的",
+      "note": "adj. 反义：fresh"
+    },
+    {
+      "word": "hot",
+      "meaning": "热的，烫的",
+      "note": "adj. 反义：cold；比较级 hotter；最高级 hottest"
+    },
+    {
+      "word": "cold",
+      "meaning": "冷的",
+      "note": "adj. 反义：hot；比较级 colder；最高级 coldest"
+    },
+    {
+      "word": "warm",
+      "meaning": "温暖的",
+      "note": "adj. 反义：cool；比较级 warmer；最高级 warmest"
+    },
+    {
+      "word": "cool",
+      "meaning": "凉爽的；酷的",
+      "note": "adj. 反义：warm；比较级 cooler；最高级 coolest"
+    },
+    {
+      "word": "dry",
+      "meaning": "干的，干燥的",
+      "note": "adj. 反义：wet；比较级 drier；最高级 driest"
+    },
+    {
+      "word": "wet",
+      "meaning": "湿的",
+      "note": "adj. 反义：dry；比较级 wetter；最高级 wettest"
+    },
+    {
+      "word": "clean",
+      "meaning": "干净的",
+      "note": "adj. 反义：dirty；比较级 cleaner；最高级 cleanest"
+    },
+    {
+      "word": "dirty",
+      "meaning": "脏的",
+      "note": "adj. 反义：clean；比较级 dirtier；最高级 dirtiest"
+    },
+    {
+      "word": "clear",
+      "meaning": "清楚的；晴朗的",
+      "note": "adj. 反义：unclear/cloudy"
+    },
+    {
+      "word": "cloudy",
+      "meaning": "多云的；模糊的",
+      "note": "adj. 反义：clear/sunny"
+    },
+    {
+      "word": "sunny",
+      "meaning": "晴朗的，阳光充足的",
+      "note": "adj. 反义：cloudy"
+    },
+    {
+      "word": "dark",
+      "meaning": "黑暗的；深色的",
+      "note": "adj. 反义：light/bright；比较级 darker；最高级 darkest"
+    },
+    {
+      "word": "bright",
+      "meaning": "明亮的；聪明的",
+      "note": "adj. 反义：dark；副词 brightly"
+    },
+    {
+      "word": "loud",
+      "meaning": "响亮的，大声的",
+      "note": "adj. 反义：quiet；比较级 louder；最高级 loudest"
+    },
+    {
+      "word": "quiet",
+      "meaning": "安静的",
+      "note": "adj. 反义：loud/noisy；比较级 quieter；最高级 quietest"
+    },
+    {
+      "word": "noisy",
+      "meaning": "吵闹的",
+      "note": "adj. 反义：quiet；比较级 noisier；最高级 noisiest"
+    },
+    {
+      "word": "soft",
+      "meaning": "柔软的；轻柔的",
+      "note": "adj. 反义：hard；比较级 softer；最高级 softest"
+    },
+    {
+      "word": "hard",
+      "meaning": "硬的；努力地",
+      "note": "adj./adv. 反义：soft/easy；比较级 harder；最高级 hardest"
+    },
+    {
+      "word": "easy",
+      "meaning": "容易的",
+      "note": "adj. 反义：difficult；比较级 easier；最高级 easiest"
+    },
+    {
+      "word": "difficult",
+      "meaning": "困难的",
+      "note": "adj. 反义：easy；比较级 more difficult；最高级 most difficult"
+    },
+    {
+      "word": "simple",
+      "meaning": "简单的",
+      "note": "adj. 近义：easy；反义：hard/difficult"
+    },
+    {
+      "word": "important",
+      "meaning": "重要的",
+      "note": "adj. 反义：unimportant；比较级 more important；最高级 most important"
+    },
+    {
+      "word": "different",
+      "meaning": "不同的",
+      "note": "adj. 反义：same；副词 differently"
+    },
+    {
+      "word": "same",
+      "meaning": "相同的",
+      "note": "adj. 反义：different"
+    },
+    {
+      "word": "right",
+      "meaning": "正确的；右边的",
+      "note": "adj. 反义：wrong/left"
+    },
+    {
+      "word": "wrong",
+      "meaning": "错误的",
+      "note": "adj. 反义：right/correct"
+    },
+    {
+      "word": "true",
+      "meaning": "真实的，正确的",
+      "note": "adj. 反义：false"
+    },
+    {
+      "word": "false",
+      "meaning": "错误的；假的",
+      "note": "adj. 反义：true"
+    },
+    {
+      "word": "good",
+      "meaning": "好的",
+      "note": "adj. 反义：bad；比较级 better；最高级 best"
+    },
+    {
+      "word": "bad",
+      "meaning": "坏的，糟糕的",
+      "note": "adj. 反义：good；比较级 worse；最高级 worst"
+    },
+    {
+      "word": "well",
+      "meaning": "好地；健康的",
+      "note": "adv./adj. 反义：badly/ill；比较级 better；最高级 best"
+    },
+    {
+      "word": "badly",
+      "meaning": "差地；严重地",
+      "note": "adv. 反义：well；比较级 worse；最高级 worst"
+    },
+    {
+      "word": "beautiful",
+      "meaning": "美丽的",
+      "note": "adj. 反义：ugly；比较级 more beautiful；最高级 most beautiful"
+    },
+    {
+      "word": "ugly",
+      "meaning": "丑陋的，难看的",
+      "note": "adj. 反义：beautiful；比较级 uglier；最高级 ugliest"
+    },
+    {
+      "word": "nice",
+      "meaning": "好的，令人愉快的",
+      "note": "adj. 近义：pleasant；反义：nasty"
+    },
+    {
+      "word": "kind",
+      "meaning": "友善的，仁慈的",
+      "note": "adj. 反义：unkind"
+    },
+    {
+      "word": "friendly",
+      "meaning": "友好的",
+      "note": "adj. 反义：unfriendly；比较级 friendlier；最高级 friendliest"
+    },
+    {
+      "word": "strict",
+      "meaning": "严格的，严厉的",
+      "note": "adj. 反义：kind/easy-going"
+    },
+    {
+      "word": "happy",
+      "meaning": "高兴的，快乐的",
+      "note": "adj. 反义：sad；比较级 happier；最高级 happiest"
+    },
+    {
+      "word": "sad",
+      "meaning": "悲伤的，难过的",
+      "note": "adj. 反义：happy；比较级 sadder；最高级 saddest"
+    },
+    {
+      "word": "angry",
+      "meaning": "生气的",
+      "note": "adj. 反义：calm；比较级 angrier；最高级 angriest"
+    },
+    {
+      "word": "calm",
+      "meaning": "镇静的，平静的",
+      "note": "adj. 反义：angry/nervous"
+    },
+    {
+      "word": "busy",
+      "meaning": "忙碌的",
+      "note": "adj. 反义：free；比较级 busier；最高级 busiest"
+    },
+    {
+      "word": "free",
+      "meaning": "空闲的；免费的",
+      "note": "adj. 反义：busy；比较级 freer；最高级 freest"
+    },
+    {
+      "word": "full",
+      "meaning": "满的；饱的",
+      "note": "adj. 反义：empty；比较级 fuller；最高级 fullest"
+    },
+    {
+      "word": "empty",
+      "meaning": "空的",
+      "note": "adj. 反义：full；比较级 emptier；最高级 emptiest"
+    },
+    {
+      "word": "rich",
+      "meaning": "富有的",
+      "note": "adj. 反义：poor；比较级 richer；最高级 richest"
+    },
+    {
+      "word": "poor",
+      "meaning": "贫穷的；差的",
+      "note": "adj. 反义：rich；比较级 poorer；最高级 poorest"
+    },
+    {
+      "word": "safe",
+      "meaning": "安全的",
+      "note": "adj. 反义：dangerous；比较级 safer；最高级 safest"
+    },
+    {
+      "word": "dangerous",
+      "meaning": "危险的",
+      "note": "adj. 反义：safe；比较级 more dangerous；最高级 most dangerous"
+    },
+    {
+      "word": "careful",
+      "meaning": "小心的，仔细的",
+      "note": "adj. 反义：careless；副词 carefully"
+    },
+    {
+      "word": "careless",
+      "meaning": "粗心的",
+      "note": "adj. 反义：careful；副词 carelessly"
+    },
+    {
+      "word": "carefully",
+      "meaning": "小心地，仔细地",
+      "note": "adv. 反义：carelessly"
+    },
+    {
+      "word": "carelessly",
+      "meaning": "粗心地",
+      "note": "adv. 反义：carefully"
+    },
+    {
+      "word": "usually",
+      "meaning": "通常",
+      "note": "adv. 近义：often"
+    },
+    {
+      "word": "often",
+      "meaning": "经常",
+      "note": "adv. 近义：usually；反义：seldom"
+    },
+    {
+      "word": "seldom",
+      "meaning": "很少，不常",
+      "note": "adv. 反义：often"
+    },
+    {
+      "word": "always",
+      "meaning": "总是，一直",
+      "note": "adv. 反义：never"
+    },
+    {
+      "word": "never",
+      "meaning": "从不，绝不",
+      "note": "adv. 反义：always"
+    },
+    {
+      "word": "arrive",
+      "meaning": "到达",
+      "note": "v. 近义：get to"
+    },
+    {
+      "word": "leave",
+      "meaning": "离开；留下",
+      "note": "v. 反义：arrive/stay"
+    },
+    {
+      "word": "start",
+      "meaning": "开始，出发",
+      "note": "v. 近义：begin；反义：finish/end"
+    },
+    {
+      "word": "finish",
+      "meaning": "完成，结束",
+      "note": "v. 近义：end；反义：start/begin"
+    },
+    {
+      "word": "open",
+      "meaning": "打开；开放的",
+      "note": "v./adj. 反义：close/closed"
+    },
+    {
+      "word": "close",
+      "meaning": "关闭；靠近",
+      "note": "v./adj. 反义：open"
+    },
+    {
+      "word": "remember",
+      "meaning": "记得，记住",
+      "note": "v. 反义：forget"
+    },
+    {
+      "word": "forget",
+      "meaning": "忘记",
+      "note": "v. 反义：remember"
+    },
+    {
+      "word": "bring",
+      "meaning": "带来",
+      "note": "v. 反义：take"
+    },
+    {
+      "word": "take",
+      "meaning": "拿走；带去；乘坐",
+      "note": "v. 反义：bring"
+    },
+    {
+      "word": "buy",
+      "meaning": "买",
+      "note": "v. 反义：sell"
+    },
+    {
+      "word": "sell",
+      "meaning": "卖，出售",
+      "note": "v. 反义：buy"
+    }
+  ]
+}
