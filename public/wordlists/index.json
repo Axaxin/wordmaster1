@@ -61,5 +61,26 @@
     "description": "状态与动作 — 情绪/状态/频率/天气/动词",
     "total": 33,
     "hasComparatives": true
+  },
+  {
+    "file": "irregverbs-part1.json",
+    "title": "不规则动词 第一组",
+    "description": "am/is → forget",
+    "total": 35,
+    "hasIrregVerbs": true
+  },
+  {
+    "file": "irregverbs-part2.json",
+    "title": "不规则动词 第二组",
+    "description": "freeze → rise",
+    "total": 36,
+    "hasIrregVerbs": true
+  },
+  {
+    "file": "irregverbs-part3.json",
+    "title": "不规则动词 第三组",
+    "description": "run → write",
+    "total": 35,
+    "hasIrregVerbs": true
   }
 ]

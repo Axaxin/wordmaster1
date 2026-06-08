@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "title": "不规则动词 第一组",
+    "description": "am/is → forget",
+    "total": 35
+  },
+  "words": [
+    {
+      "word": "was",
+      "meaning": "am / is",
+      "note": "过去式"
+    },
+    {
+      "word": "were",
+      "meaning": "are",
+      "note": "过去式"
+    },
+    {
+      "word": "awoke",
+      "meaning": "awake",
+      "note": "过去式"
+    },
+    {
+      "word": "bore",
+      "meaning": "bear",
+      "note": "过去式"
+    },
+    {
+      "word": "beat",
+      "meaning": "beat",
+      "note": "过去式"
+    },
+    {
+      "word": "became",
+      "meaning": "become",
+      "note": "过去式"
+    },
+    {
+      "word": "began",
+      "meaning": "begin",
+      "note": "过去式"
+    },
+    {
+      "word": "bled",
+      "meaning": "bleed",
+      "note": "过去式"
+    },
+    {
+      "word": "blew",
+      "meaning": "blow",
+      "note": "过去式"
+    },
+    {
+      "word": "broke",
+      "meaning": "break",
+      "note": "过去式"
+    },
+    {
+      "word": "brought",
+      "meaning": "bring",
+      "note": "过去式"
+    },
+    {
+      "word": "built",
+      "meaning": "build",
+      "note": "过去式"
+    },
+    {
+      "word": "burnt",
+      "meaning": "burn",
+      "note": "过去式"
+    },
+    {
+      "word": "bought",
+      "meaning": "buy",
+      "note": "过去式"
+    },
+    {
+      "word": "could",
+      "meaning": "can",
+      "note": "过去式"
+    },
+    {
+      "word": "caught",
+      "meaning": "catch",
+      "note": "过去式"
+    },
+    {
+      "word": "chose",
+      "meaning": "choose",
+      "note": "过去式"
+    },
+    {
+      "word": "came",
+      "meaning": "come",
+      "note": "过去式"
+    },
+    {
+      "word": "cost",
+      "meaning": "cost",
+      "note": "过去式"
+    },
+    {
+      "word": "cut",
+      "meaning": "cut",
+      "note": "过去式"
+    },
+    {
+      "word": "dealt",
+      "meaning": "deal",
+      "note": "过去式"
+    },
+    {
+      "word": "dug",
+      "meaning": "dig",
+      "note": "过去式"
+    },
+    {
+      "word": "did",
+      "meaning": "do",
+      "note": "过去式"
+    },
+    {
+      "word": "drew",
+      "meaning": "draw",
+      "note": "过去式"
+    },
+    {
+      "word": "dreamt",
+      "meaning": "dream",
+      "note": "过去式"
+    },
+    {
+      "word": "drank",
+      "meaning": "drink",
+      "note": "过去式"
+    },
+    {
+      "word": "drove",
+      "meaning": "drive",
+      "note": "过去式"
+    },
+    {
+      "word": "ate",
+      "meaning": "eat",
+      "note": "过去式"
+    },
+    {
+      "word": "fell",
+      "meaning": "fall",
+      "note": "过去式"
+    },
+    {
+      "word": "fed",
+      "meaning": "feed",
+      "note": "过去式"
+    },
+    {
+      "word": "felt",
+      "meaning": "feel",
+      "note": "过去式"
+    },
+    {
+      "word": "fought",
+      "meaning": "fight",
+      "note": "过去式"
+    },
+    {
+      "word": "found",
+      "meaning": "find",
+      "note": "过去式"
+    },
+    {
+      "word": "flew",
+      "meaning": "fly",
+      "note": "过去式"
+    },
+    {
+      "word": "forgot",
+      "meaning": "forget",
+      "note": "过去式"
+    }
+  ]
+}
