@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { AuthProvider, useAuth } from './context/AuthContext'
 import LoginPage from './pages/LoginPage'
 import HomePage from './pages/HomePage'
-import QuizConfigPage from './pages/QuizConfigPage'
+import WordListPage from './pages/WordListPage'
+import ErrorPreviewPage from './pages/ErrorPreviewPage'
 import QuizPlayPage from './pages/QuizPlayPage'
 import ResultPage from './pages/ResultPage'
 import StatsPage from './pages/StatsPage'
@@ -18,8 +19,10 @@ function AppRoutes() {
     <Routes>
       <Route path="/" element={<LoginPage />} />
       <Route path="/home" element={<RequireAuth><HomePage /></RequireAuth>} />
-      <Route path="/quiz/:unit" element={<RequireAuth><QuizConfigPage /></RequireAuth>} />
-      <Route path="/quiz/:unit/play" element={<RequireAuth><QuizPlayPage /></RequireAuth>} />
+      <Route path="/quiz/words" element={<RequireAuth><WordListPage /></RequireAuth>} />
+      <Route path="/quiz/words/:unit/play" element={<RequireAuth><QuizPlayPage /></RequireAuth>} />
+      <Route path="/quiz/errors" element={<RequireAuth><ErrorPreviewPage /></RequireAuth>} />
+      <Route path="/quiz/errors/play" element={<RequireAuth><QuizPlayPage /></RequireAuth>} />
       <Route path="/result" element={<RequireAuth><ResultPage /></RequireAuth>} />
       <Route path="/stats" element={<RequireAuth><StatsPage /></RequireAuth>} />
     </Routes>
