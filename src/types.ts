@@ -5,6 +5,8 @@ export interface WordEntry {
   unit?: string
   image?: string
   example?: string
+  comparative?: string
+  superlative?: string
 }
 
 export interface WordListMeta {
@@ -23,6 +25,7 @@ export interface WordListIndex {
   title: string
   description: string
   total: number
+  hasComparatives?: boolean
 }
 
 export interface Student {
