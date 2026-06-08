@@ -2,6 +2,7 @@ export interface WordEntry {
   word: string
   meaning: string
   note: string
+  unit?: string
   image?: string
   example?: string
 }
