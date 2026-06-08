@@ -12,9 +12,10 @@ interface QuizAreaProps {
   username: string
   sessionId: number
   startTime: number
+  onRestart: () => void
 }
 
-function QuizArea({ words, unit, username, sessionId, startTime }: QuizAreaProps) {
+function QuizArea({ words, unit, username, sessionId, startTime, onRestart }: QuizAreaProps) {
   const navigate = useNavigate()
   const quiz = useQuiz(words)
   const [feedback, setFeedback] = useState<string | null>(null)
@@ -76,8 +77,9 @@ function QuizArea({ words, unit, username, sessionId, startTime }: QuizAreaProps
       <div className="flex justify-end mb-2">
         <button
           onClick={() => setPaused(true)}
-          className="text-sm text-gray-400 hover:text-gray-600 px-2 py-1"
+          className="flex items-center gap-1.5 text-sm text-gray-500 hover:text-gray-700 bg-gray-100 hover:bg-gray-200 px-3 py-1.5 rounded-full transition-colors"
         >
+          <span>⏸</span>
           暂停
         </button>
       </div>
@@ -100,10 +102,16 @@ function QuizArea({ words, unit, username, sessionId, startTime }: QuizAreaProps
             继续
           </button>
           <button
-            onClick={() => navigate(`/quiz/${unit}/play`, { replace: true })}
+            onClick={onRestart}
             className="w-full py-2.5 text-base font-medium text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 rounded-lg transition-colors"
           >
             重来
+          </button>
+          <button
+            onClick={() => navigate('/home')}
+            className="w-full py-2 text-sm text-gray-400 hover:text-gray-600 transition-colors"
+          >
+            退出测验
           </button>
         </div>
       ) : (
@@ -139,10 +147,13 @@ export default function QuizPlayPage() {
   const { username } = useAuth()
   const [words, setWords] = useState<WordEntry[] | null>(null)
   const [sessionId, setSessionId] = useState<number | null>(null)
+  const [sessionKey, setSessionKey] = useState(0)
   const startTime = useRef(0)
 
   useEffect(() => {
     if (!unit || !username) return
+    setWords(null)
+    setSessionId(null)
     api.getWordList(`${unit}.json`).then(async data => {
       const { session_id } = await api.startSession({
         student: username,
@@ -154,17 +165,19 @@ export default function QuizPlayPage() {
       setSessionId(session_id)
       setWords(data.words)
     })
-  }, [unit, username])
+  }, [unit, username, sessionKey])
 
   if (!words || sessionId === null) return <p className="p-4 text-gray-500">加载中…</p>
 
   return (
     <QuizArea
+      key={sessionKey}
       words={words}
       unit={unit!}
       username={username!}
       sessionId={sessionId}
       startTime={startTime.current}
+      onRestart={() => setSessionKey(k => k + 1)}
     />
   )
 }
