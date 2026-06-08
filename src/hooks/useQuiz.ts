@@ -25,7 +25,8 @@ export function useQuiz(words: WordEntry[]): UseQuizReturn {
     if (!queue.length || isComplete) return { correct: false }
 
     const current = queue[0]
-    const correct = answer.trim().toLowerCase() === current.word.toLowerCase()
+    const normalize = (s: string) => s.trim().toLowerCase().replace(/[‘’‚‛]/g, "'")
+    const correct = normalize(answer) === normalize(current.word)
 
     seenThisPass.current.add(current.word)
 

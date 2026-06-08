@@ -11,6 +11,8 @@ if (!inputFile || !outputId || !title || !description) {
   process.exit(1)
 }
 
+const normalize = s => s.replace(/[''‚‛]/g, "'")
+
 const txt = readFileSync(inputFile, 'utf8')
 const words = []
 
@@ -23,7 +25,7 @@ for (const line of txt.split('\n')) {
   const m1 = trimmed.match(/^[*>\-]?\s*\*\*(.+?)\*\*\s+\/(.+?)\/\s+\*?(\S+\.)\*?\s+(.+)$/)
   if (m1) {
     const [, word, phonetics, pos, meaning] = m1
-    words.push({ word: word.trim(), meaning: meaning.trim(), note: `${pos} /${phonetics}/` })
+    words.push({ word: normalize(word.trim()), meaning: meaning.trim(), note: `${pos} /${phonetics}/` })
     continue
   }
 
@@ -32,7 +34,7 @@ for (const line of txt.split('\n')) {
   const m2 = trimmed.match(/^[*>\-]?\s*\*\*(.+?)\*\*\s+\*(\S+\.)\*\s+(.+)$/)
   if (m2) {
     const [, word, pos, meaning] = m2
-    words.push({ word: word.trim(), meaning: meaning.trim(), note: pos })
+    words.push({ word: normalize(word.trim()), meaning: meaning.trim(), note: pos })
     continue
   }
 
@@ -41,7 +43,7 @@ for (const line of txt.split('\n')) {
   const m3 = trimmed.match(/^[*>\-]?\s*\*\*(.+?)\*\*\s+(.+)$/)
   if (m3) {
     const [, word, meaning] = m3
-    words.push({ word: word.trim(), meaning: meaning.trim(), note: '' })
+    words.push({ word: normalize(word.trim()), meaning: meaning.trim(), note: '' })
     continue
   }
 }
