@@ -14,7 +14,10 @@ export default function ErrorPreviewPage() {
   const [starting, setStarting] = useState(false)
 
   useEffect(() => {
-    if (!username) return
+    if (!username) {
+      setLoading(false)
+      return
+    }
     Promise.all([api.getStats(username), api.getWordListIndex()])
       .then(([stats, index]) => {
         setErrorWords(stats.high_error_words)
