@@ -42,9 +42,24 @@
     "total": 55
   },
   {
-    "file": "year7sem2foundation-comparison.json",
-    "title": "Year 7 Sem 2 Foundation: Comparison",
-    "description": "初一下比较级/最高级补缺：基础形容词、副词与常用动词",
-    "total": 101
+    "file": "year7sem2fc-part1.json",
+    "title": "Year 7 Sem 2 FC 第一组",
+    "description": "形体描述 — 大小/尺寸/重量/速度/温度",
+    "total": 34,
+    "hasComparatives": true
+  },
+  {
+    "file": "year7sem2fc-part2.json",
+    "title": "Year 7 Sem 2 FC 第二组",
+    "description": "品质评价 — 整洁/难度/好坏/美丑/情绪",
+    "total": 34,
+    "hasComparatives": true
+  },
+  {
+    "file": "year7sem2fc-part3.json",
+    "title": "Year 7 Sem 2 FC 第三组",
+    "description": "状态与动作 — 情绪/状态/频率/天气/动词",
+    "total": 33,
+    "hasComparatives": true
   }
 ]

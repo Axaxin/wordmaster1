@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "title": "Year 7 Sem 2 FC 第三组",
+    "description": "状态与动作 — 情绪/状态/频率/天气/动词",
+    "total": 33
+  },
+  "words": [
+    {
+      "word": "happy",
+      "meaning": "高兴的，快乐的",
+      "note": "adj. 反义：sad；比较级 happier；最高级 happiest",
+      "comparative": "happier",
+      "superlative": "happiest"
+    },
+    {
+      "word": "sad",
+      "meaning": "悲伤的，难过的",
+      "note": "adj. 反义：happy；比较级 sadder；最高级 saddest",
+      "comparative": "sadder",
+      "superlative": "saddest"
+    },
+    {
+      "word": "angry",
+      "meaning": "生气的",
+      "note": "adj. 反义：calm；比较级 angrier；最高级 angriest",
+      "comparative": "angrier",
+      "superlative": "angriest"
+    },
+    {
+      "word": "calm",
+      "meaning": "镇静的，平静的",
+      "note": "adj. 反义：angry/nervous"
+    },
+    {
+      "word": "busy",
+      "meaning": "忙碌的",
+      "note": "adj. 反义：free；比较级 busier；最高级 busiest",
+      "comparative": "busier",
+      "superlative": "busiest"
+    },
+    {
+      "word": "free",
+      "meaning": "空闲的；免费的",
+      "note": "adj. 反义：busy；比较级 freer；最高级 freest",
+      "comparative": "freer",
+      "superlative": "freest"
+    },
+    {
+      "word": "full",
+      "meaning": "满的；饱的",
+      "note": "adj. 反义：empty；比较级 fuller；最高级 fullest",
+      "comparative": "fuller",
+      "superlative": "fullest"
+    },
+    {
+      "word": "empty",
+      "meaning": "空的",
+      "note": "adj. 反义：full；比较级 emptier；最高级 emptiest",
+      "comparative": "emptier",
+      "superlative": "emptiest"
+    },
+    {
+      "word": "rich",
+      "meaning": "富有的",
+      "note": "adj. 反义：poor；比较级 richer；最高级 richest",
+      "comparative": "richer",
+      "superlative": "richest"
+    },
+    {
+      "word": "poor",
+      "meaning": "贫穷的；差的",
+      "note": "adj. 反义：rich；比较级 poorer；最高级 poorest",
+      "comparative": "poorer",
+      "superlative": "poorest"
+    },
+    {
+      "word": "safe",
+      "meaning": "安全的",
+      "note": "adj. 反义：dangerous；比较级 safer；最高级 safest",
+      "comparative": "safer",
+      "superlative": "safest"
+    },
+    {
+      "word": "dangerous",
+      "meaning": "危险的",
+      "note": "adj. 反义：safe；比较级 more dangerous；最高级 most dangerous",
+      "comparative": "more dangerous",
+      "superlative": "most dangerous"
+    },
+    {
+      "word": "careful",
+      "meaning": "小心的，仔细的",
+      "note": "adj. 反义：careless；副词 carefully"
+    },
+    {
+      "word": "careless",
+      "meaning": "粗心的",
+      "note": "adj. 反义：careful；副词 carelessly"
+    },
+    {
+      "word": "carefully",
+      "meaning": "小心地，仔细地",
+      "note": "adv. 反义：carelessly"
+    },
+    {
+      "word": "carelessly",
+      "meaning": "粗心地",
+      "note": "adv. 反义：carefully"
+    },
+    {
+      "word": "usually",
+      "meaning": "通常",
+      "note": "adv. 近义：often"
+    },
+    {
+      "word": "often",
+      "meaning": "经常",
+      "note": "adv. 近义：usually；反义：seldom"
+    },
+    {
+      "word": "seldom",
+      "meaning": "很少，不常",
+      "note": "adv. 反义：often"
+    },
+    {
+      "word": "always",
+      "meaning": "总是，一直",
+      "note": "adv. 反义：never"
+    },
+    {
+      "word": "never",
+      "meaning": "从不，绝不",
+      "note": "adv. 反义：always"
+    },
+    {
+      "word": "arrive",
+      "meaning": "到达",
+      "note": "v. 近义：get to"
+    },
+    {
+      "word": "leave",
+      "meaning": "离开；留下",
+      "note": "v. 反义：arrive/stay"
+    },
+    {
+      "word": "start",
+      "meaning": "开始，出发",
+      "note": "v. 近义：begin；反义：finish/end"
+    },
+    {
+      "word": "finish",
+      "meaning": "完成，结束",
+      "note": "v. 近义：end；反义：start/begin"
+    },
+    {
+      "word": "open",
+      "meaning": "打开；开放的",
+      "note": "v./adj. 反义：close/closed"
+    },
+    {
+      "word": "close",
+      "meaning": "关闭；靠近",
+      "note": "v./adj. 反义：open"
+    },
+    {
+      "word": "remember",
+      "meaning": "记得，记住",
+      "note": "v. 反义：forget"
+    },
+    {
+      "word": "forget",
+      "meaning": "忘记",
+      "note": "v. 反义：remember"
+    },
+    {
+      "word": "bring",
+      "meaning": "带来",
+      "note": "v. 反义：take"
+    },
+    {
+      "word": "take",
+      "meaning": "拿走；带去；乘坐",
+      "note": "v. 反义：bring"
+    },
+    {
+      "word": "buy",
+      "meaning": "买",
+      "note": "v. 反义：sell"
+    },
+    {
+      "word": "sell",
+      "meaning": "卖，出售",
+      "note": "v. 反义：buy"
+    }
+  ]
+}

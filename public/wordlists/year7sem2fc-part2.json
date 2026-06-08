@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "title": "Year 7 Sem 2 FC 第二组",
+    "description": "品质评价 — 整洁/难度/好坏/美丑/情绪",
+    "total": 34
+  },
+  "words": [
+    {
+      "word": "dry",
+      "meaning": "干的，干燥的",
+      "note": "adj. 反义：wet；比较级 drier；最高级 driest",
+      "comparative": "drier",
+      "superlative": "driest"
+    },
+    {
+      "word": "wet",
+      "meaning": "湿的",
+      "note": "adj. 反义：dry；比较级 wetter；最高级 wettest",
+      "comparative": "wetter",
+      "superlative": "wettest"
+    },
+    {
+      "word": "clean",
+      "meaning": "干净的",
+      "note": "adj. 反义：dirty；比较级 cleaner；最高级 cleanest",
+      "comparative": "cleaner",
+      "superlative": "cleanest"
+    },
+    {
+      "word": "dirty",
+      "meaning": "脏的",
+      "note": "adj. 反义：clean；比较级 dirtier；最高级 dirtiest",
+      "comparative": "dirtier",
+      "superlative": "dirtiest"
+    },
+    {
+      "word": "clear",
+      "meaning": "清楚的；晴朗的",
+      "note": "adj. 反义：unclear/cloudy"
+    },
+    {
+      "word": "cloudy",
+      "meaning": "多云的；模糊的",
+      "note": "adj. 反义：clear/sunny"
+    },
+    {
+      "word": "sunny",
+      "meaning": "晴朗的，阳光充足的",
+      "note": "adj. 反义：cloudy"
+    },
+    {
+      "word": "dark",
+      "meaning": "黑暗的；深色的",
+      "note": "adj. 反义：light/bright；比较级 darker；最高级 darkest",
+      "comparative": "darker",
+      "superlative": "darkest"
+    },
+    {
+      "word": "bright",
+      "meaning": "明亮的；聪明的",
+      "note": "adj. 反义：dark；副词 brightly"
+    },
+    {
+      "word": "loud",
+      "meaning": "响亮的，大声的",
+      "note": "adj. 反义：quiet；比较级 louder；最高级 loudest",
+      "comparative": "louder",
+      "superlative": "loudest"
+    },
+    {
+      "word": "quiet",
+      "meaning": "安静的",
+      "note": "adj. 反义：loud/noisy；比较级 quieter；最高级 quietest",
+      "comparative": "quieter",
+      "superlative": "quietest"
+    },
+    {
+      "word": "noisy",
+      "meaning": "吵闹的",
+      "note": "adj. 反义：quiet；比较级 noisier；最高级 noisiest",
+      "comparative": "noisier",
+      "superlative": "noisiest"
+    },
+    {
+      "word": "soft",
+      "meaning": "柔软的；轻柔的",
+      "note": "adj. 反义：hard；比较级 softer；最高级 softest",
+      "comparative": "softer",
+      "superlative": "softest"
+    },
+    {
+      "word": "hard",
+      "meaning": "硬的；努力地",
+      "note": "adj./adv. 反义：soft/easy；比较级 harder；最高级 hardest",
+      "comparative": "harder",
+      "superlative": "hardest"
+    },
+    {
+      "word": "easy",
+      "meaning": "容易的",
+      "note": "adj. 反义：difficult；比较级 easier；最高级 easiest",
+      "comparative": "easier",
+      "superlative": "easiest"
+    },
+    {
+      "word": "difficult",
+      "meaning": "困难的",
+      "note": "adj. 反义：easy；比较级 more difficult；最高级 most difficult",
+      "comparative": "more difficult",
+      "superlative": "most difficult"
+    },
+    {
+      "word": "simple",
+      "meaning": "简单的",
+      "note": "adj. 近义：easy；反义：hard/difficult"
+    },
+    {
+      "word": "important",
+      "meaning": "重要的",
+      "note": "adj. 反义：unimportant；比较级 more important；最高级 most important",
+      "comparative": "more important",
+      "superlative": "most important"
+    },
+    {
+      "word": "different",
+      "meaning": "不同的",
+      "note": "adj. 反义：same；副词 differently"
+    },
+    {
+      "word": "same",
+      "meaning": "相同的",
+      "note": "adj. 反义：different"
+    },
+    {
+      "word": "right",
+      "meaning": "正确的；右边的",
+      "note": "adj. 反义：wrong/left"
+    },
+    {
+      "word": "wrong",
+      "meaning": "错误的",
+      "note": "adj. 反义：right/correct"
+    },
+    {
+      "word": "true",
+      "meaning": "真实的，正确的",
+      "note": "adj. 反义：false"
+    },
+    {
+      "word": "false",
+      "meaning": "错误的；假的",
+      "note": "adj. 反义：true"
+    },
+    {
+      "word": "good",
+      "meaning": "好的",
+      "note": "adj. 反义：bad；比较级 better；最高级 best",
+      "comparative": "better",
+      "superlative": "best"
+    },
+    {
+      "word": "bad",
+      "meaning": "坏的，糟糕的",
+      "note": "adj. 反义：good；比较级 worse；最高级 worst",
+      "comparative": "worse",
+      "superlative": "worst"
+    },
+    {
+      "word": "well",
+      "meaning": "好地；健康的",
+      "note": "adv./adj. 反义：badly/ill；比较级 better；最高级 best",
+      "comparative": "better",
+      "superlative": "best"
+    },
+    {
+      "word": "badly",
+      "meaning": "差地；严重地",
+      "note": "adv. 反义：well；比较级 worse；最高级 worst",
+      "comparative": "worse",
+      "superlative": "worst"
+    },
+    {
+      "word": "beautiful",
+      "meaning": "美丽的",
+      "note": "adj. 反义：ugly；比较级 more beautiful；最高级 most beautiful",
+      "comparative": "more beautiful",
+      "superlative": "most beautiful"
+    },
+    {
+      "word": "ugly",
+      "meaning": "丑陋的，难看的",
+      "note": "adj. 反义：beautiful；比较级 uglier；最高级 ugliest",
+      "comparative": "uglier",
+      "superlative": "ugliest"
+    },
+    {
+      "word": "nice",
+      "meaning": "好的，令人愉快的",
+      "note": "adj. 近义：pleasant；反义：nasty"
+    },
+    {
+      "word": "kind",
+      "meaning": "友善的，仁慈的",
+      "note": "adj. 反义：unkind"
+    },
+    {
+      "word": "friendly",
+      "meaning": "友好的",
+      "note": "adj. 反义：unfriendly；比较级 friendlier；最高级 friendliest",
+      "comparative": "friendlier",
+      "superlative": "friendliest"
+    },
+    {
+      "word": "strict",
+      "meaning": "严格的，严厉的",
+      "note": "adj. 反义：kind/easy-going"
+    }
+  ]
+}

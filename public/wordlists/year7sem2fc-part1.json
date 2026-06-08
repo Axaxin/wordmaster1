@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "title": "Year 7 Sem 2 FC 第一组",
+    "description": "形体描述 — 大小/尺寸/重量/速度/温度",
+    "total": 34
+  },
+  "words": [
+    {
+      "word": "big",
+      "meaning": "大的",
+      "note": "adj. 反义：small；比较级 bigger；最高级 biggest",
+      "comparative": "bigger",
+      "superlative": "biggest"
+    },
+    {
+      "word": "small",
+      "meaning": "小的",
+      "note": "adj. 反义：big；比较级 smaller；最高级 smallest",
+      "comparative": "smaller",
+      "superlative": "smallest"
+    },
+    {
+      "word": "large",
+      "meaning": "大的，巨大的",
+      "note": "adj. 近义：big；反义：small"
+    },
+    {
+      "word": "tiny",
+      "meaning": "极小的，微小的",
+      "note": "adj. 近义：very small；反义：huge"
+    },
+    {
+      "word": "huge",
+      "meaning": "巨大的，庞大的",
+      "note": "adj. 近义：very big；反义：tiny"
+    },
+    {
+      "word": "long",
+      "meaning": "长的",
+      "note": "adj. 反义：short；比较级 longer；最高级 longest",
+      "comparative": "longer",
+      "superlative": "longest"
+    },
+    {
+      "word": "short",
+      "meaning": "短的；矮的",
+      "note": "adj. 反义：long/tall；比较级 shorter；最高级 shortest",
+      "comparative": "shorter",
+      "superlative": "shortest"
+    },
+    {
+      "word": "tall",
+      "meaning": "高的",
+      "note": "adj. 反义：short；比较级 taller；最高级 tallest",
+      "comparative": "taller",
+      "superlative": "tallest"
+    },
+    {
+      "word": "high",
+      "meaning": "高的；高地",
+      "note": "adj./adv. 反义：low；比较级 higher；最高级 highest",
+      "comparative": "higher",
+      "superlative": "highest"
+    },
+    {
+      "word": "low",
+      "meaning": "低的；低地",
+      "note": "adj./adv. 反义：high；比较级 lower；最高级 lowest",
+      "comparative": "lower",
+      "superlative": "lowest"
+    },
+    {
+      "word": "deep",
+      "meaning": "深的",
+      "note": "adj. 反义：shallow；比较级 deeper；最高级 deepest",
+      "comparative": "deeper",
+      "superlative": "deepest"
+    },
+    {
+      "word": "shallow",
+      "meaning": "浅的",
+      "note": "adj. 反义：deep"
+    },
+    {
+      "word": "wide",
+      "meaning": "宽的",
+      "note": "adj. 反义：narrow；比较级 wider；最高级 widest",
+      "comparative": "wider",
+      "superlative": "widest"
+    },
+    {
+      "word": "narrow",
+      "meaning": "窄的，狭窄的",
+      "note": "adj. 反义：wide"
+    },
+    {
+      "word": "thick",
+      "meaning": "厚的；浓的",
+      "note": "adj. 反义：thin；比较级 thicker；最高级 thickest",
+      "comparative": "thicker",
+      "superlative": "thickest"
+    },
+    {
+      "word": "thin",
+      "meaning": "薄的；瘦的",
+      "note": "adj. 反义：thick/fat；比较级 thinner；最高级 thinnest",
+      "comparative": "thinner",
+      "superlative": "thinnest"
+    },
+    {
+      "word": "heavy",
+      "meaning": "重的",
+      "note": "adj. 反义：light；比较级 heavier；最高级 heaviest",
+      "comparative": "heavier",
+      "superlative": "heaviest"
+    },
+    {
+      "word": "light",
+      "meaning": "轻的；明亮的",
+      "note": "adj. 反义：heavy/dark；比较级 lighter；最高级 lightest",
+      "comparative": "lighter",
+      "superlative": "lightest"
+    },
+    {
+      "word": "fast",
+      "meaning": "快的；快地",
+      "note": "adj./adv. 反义：slow；比较级 faster；最高级 fastest",
+      "comparative": "faster",
+      "superlative": "fastest"
+    },
+    {
+      "word": "slow",
+      "meaning": "慢的",
+      "note": "adj. 反义：fast；比较级 slower；最高级 slowest",
+      "comparative": "slower",
+      "superlative": "slowest"
+    },
+    {
+      "word": "quick",
+      "meaning": "快的，迅速的",
+      "note": "adj. 近义：fast；副词 quickly"
+    },
+    {
+      "word": "quickly",
+      "meaning": "快速地，迅速地",
+      "note": "adv. 近义：fast；反义：slowly"
+    },
+    {
+      "word": "slowly",
+      "meaning": "慢慢地",
+      "note": "adv. 反义：quickly"
+    },
+    {
+      "word": "early",
+      "meaning": "早的；早地",
+      "note": "adj./adv. 反义：late；比较级 earlier；最高级 earliest",
+      "comparative": "earlier",
+      "superlative": "earliest"
+    },
+    {
+      "word": "late",
+      "meaning": "迟的；晚地",
+      "note": "adj./adv. 反义：early；比较级 later；最高级 latest",
+      "comparative": "later",
+      "superlative": "latest"
+    },
+    {
+      "word": "new",
+      "meaning": "新的",
+      "note": "adj. 反义：old；比较级 newer；最高级 newest",
+      "comparative": "newer",
+      "superlative": "newest"
+    },
+    {
+      "word": "old",
+      "meaning": "旧的；年老的",
+      "note": "adj. 反义：new/young；比较级 older；最高级 oldest",
+      "comparative": "older",
+      "superlative": "oldest"
+    },
+    {
+      "word": "young",
+      "meaning": "年轻的，幼小的",
+      "note": "adj. 反义：old；比较级 younger；最高级 youngest",
+      "comparative": "younger",
+      "superlative": "youngest"
+    },
+    {
+      "word": "fresh",
+      "meaning": "新鲜的",
+      "note": "adj. 反义：stale"
+    },
+    {
+      "word": "stale",
+      "meaning": "不新鲜的，走味的",
+      "note": "adj. 反义：fresh"
+    },
+    {
+      "word": "hot",
+      "meaning": "热的，烫的",
+      "note": "adj. 反义：cold；比较级 hotter；最高级 hottest",
+      "comparative": "hotter",
+      "superlative": "hottest"
+    },
+    {
+      "word": "cold",
+      "meaning": "冷的",
+      "note": "adj. 反义：hot；比较级 colder；最高级 coldest",
+      "comparative": "colder",
+      "superlative": "coldest"
+    },
+    {
+      "word": "warm",
+      "meaning": "温暖的",
+      "note": "adj. 反义：cool；比较级 warmer；最高级 warmest",
+      "comparative": "warmer",
+      "superlative": "warmest"
+    },
+    {
+      "word": "cool",
+      "meaning": "凉爽的；酷的",
+      "note": "adj. 反义：warm；比较级 cooler；最高级 coolest",
+      "comparative": "cooler",
+      "superlative": "coolest"
+    }
+  ]
+}
