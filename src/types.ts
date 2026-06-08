@@ -26,6 +26,7 @@ export interface WordListIndex {
   description: string
   total: number
   hasComparatives?: boolean
+  hasIrregVerbs?: boolean
 }
 
 export interface Student {
