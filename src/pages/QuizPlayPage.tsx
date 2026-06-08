@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type FormEvent } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import { useParams, useNavigate, useLocation } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { useQuiz } from '../hooks/useQuiz'
 import { api } from '../lib/api'
@@ -56,7 +56,7 @@ function QuizArea({ words, unit, username, sessionId, startTime, onRestart }: Qu
     await api.recordWord({
       session_id: sessionId,
       student: username,
-      unit,
+      unit: quiz.current.unit ?? unit,
       word,
       correct: correct ? 1 : 0,
       attempt_number: attemptCount.current[word],
@@ -143,21 +143,41 @@ function QuizArea({ words, unit, username, sessionId, startTime, onRestart }: Qu
 }
 
 export default function QuizPlayPage() {
-  const { unit } = useParams<{ unit: string }>()
+  const { unit: unitParam } = useParams<{ unit: string }>()
+  const location = useLocation()
   const { username } = useAuth()
+  const navigate = useNavigate()
   const [words, setWords] = useState<WordEntry[] | null>(null)
   const [sessionId, setSessionId] = useState<number | null>(null)
   const [sessionKey, setSessionKey] = useState(0)
   const startTime = useRef(0)
 
   useEffect(() => {
-    if (!unit || !username) return
+    if (!username) return
     setWords(null)
     setSessionId(null)
-    api.getWordList(`${unit}.json`).then(async data => {
+
+    const stateWords: WordEntry[] | undefined = location.state?.words
+
+    if (stateWords) {
+      if (!stateWords.length) {
+        navigate('/quiz/errors', { replace: true })
+        return
+      }
+      api.startSession({ student: username, unit: 'errors', mode: 'queue_cycle', total_words: stateWords.length })
+        .then(({ session_id }) => {
+          startTime.current = Date.now()
+          setSessionId(session_id)
+          setWords(stateWords)
+        })
+      return
+    }
+
+    if (!unitParam) return
+    api.getWordList(`${unitParam}.json`).then(async data => {
       const { session_id } = await api.startSession({
         student: username,
-        unit,
+        unit: unitParam,
         mode: 'queue_cycle',
         total_words: data.words.length,
       })
@@ -165,7 +185,9 @@ export default function QuizPlayPage() {
       setSessionId(session_id)
       setWords(data.words)
     })
-  }, [unit, username, sessionKey])
+  }, [unitParam, username, sessionKey, location.state])
+
+  const unit = location.state?.words ? 'errors' : (unitParam ?? '')
 
   if (!words || sessionId === null) return <p className="p-4 text-gray-500">加载中…</p>
 
@@ -173,7 +195,7 @@ export default function QuizPlayPage() {
     <QuizArea
       key={sessionKey}
       words={words}
-      unit={unit!}
+      unit={unit}
       username={username!}
       sessionId={sessionId}
       startTime={startTime.current}
