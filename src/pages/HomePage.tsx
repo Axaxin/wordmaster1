@@ -1,20 +1,10 @@
-import { useEffect, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
-import { api } from '../lib/api'
-import type { WordListIndex } from '../types'
 
 export default function HomePage() {
   const { username, logout } = useAuth()
-  const [lists, setLists] = useState<WordListIndex[]>([])
-  const [loading, setLoading] = useState(true)
   const navigate = useNavigate()
-
-  useEffect(() => {
-    api.getWordListIndex()
-      .then(setLists)
-      .finally(() => setLoading(false))
-  }, [])
 
   const handleLogout = () => {
     logout()
@@ -31,22 +21,22 @@ export default function HomePage() {
           <button onClick={handleLogout} className="text-gray-500 hover:text-gray-700">退出</button>
         </div>
       </div>
-      <h2 className="text-lg font-semibold text-gray-900 mb-3">选择词库</h2>
-      {loading && <p className="text-gray-500">加载中…</p>}
+      <h2 className="text-lg font-semibold text-gray-900 mb-3">选择模式</h2>
       <div className="flex flex-col gap-3">
-        {lists.map(item => (
-          <Link
-            key={item.file}
-            to={`/quiz/${item.file.replace('.json', '')}`}
-            className="block p-4 bg-white border border-gray-200 rounded-xl hover:bg-gray-50 transition-colors text-gray-900 no-underline"
-          >
-            <div className="flex justify-between items-start">
-              <strong className="font-semibold">{item.title}</strong>
-              <span className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">{item.total} 词</span>
-            </div>
-            <p className="text-sm text-gray-500 mt-1 mb-0">{item.description}</p>
-          </Link>
-        ))}
+        <Link
+          to="/quiz/words"
+          className="block p-4 bg-white border border-gray-200 rounded-xl hover:bg-gray-50 transition-colors text-gray-900 no-underline"
+        >
+          <strong className="font-semibold">词库练习</strong>
+          <p className="text-sm text-gray-500 mt-1 mb-0">从词库中选词，循环测验直到全部答对</p>
+        </Link>
+        <Link
+          to="/quiz/errors"
+          className="block p-4 bg-white border border-gray-200 rounded-xl hover:bg-gray-50 transition-colors text-gray-900 no-underline"
+        >
+          <strong className="font-semibold">错词复习</strong>
+          <p className="text-sm text-gray-500 mt-1 mb-0">重新测试统计中的高频错词</p>
+        </Link>
       </div>
     </div>
   )
