@@ -9,6 +9,7 @@ export default function StatsPage() {
   const [stats, setStats] = useState<StudentStats | null>(null)
   const [loading, setLoading] = useState(true)
   const [clearing, setClearing] = useState(false)
+  const [confirmClear, setConfirmClear] = useState(false)
 
   useEffect(() => {
     if (!username) return
@@ -18,11 +19,11 @@ export default function StatsPage() {
   }, [username])
 
   const handleClearStats = async () => {
-    if (!window.confirm('确认清空所有记录？此操作不可恢复。')) return
     setClearing(true)
     try {
       await api.clearStats(username!)
       setStats({ sessions: [], high_error_words: [] })
+      setConfirmClear(false)
     } catch {
       window.alert('清空失败，请重试')
     } finally {
@@ -37,13 +38,32 @@ export default function StatsPage() {
       <Link to="/home" className="text-sm text-indigo-600 hover:text-indigo-700">← 返回</Link>
       <div className="flex justify-between items-center mt-4 mb-6">
         <h2 className="text-xl font-bold text-gray-900">{username} 的学习统计</h2>
-        <button
-          onClick={handleClearStats}
-          disabled={clearing}
-          className="text-sm text-red-600 hover:text-red-700 border border-red-200 hover:bg-red-50 rounded-lg px-3 py-1.5 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-        >
-          清空记录
-        </button>
+        {confirmClear ? (
+          <div className="flex items-center gap-2">
+            <span className="text-sm text-gray-500">确认清空？</span>
+            <button
+              onClick={handleClearStats}
+              disabled={clearing}
+              className="text-sm text-white bg-red-600 hover:bg-red-700 rounded-lg px-3 py-1.5 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              {clearing ? '清空中…' : '确认'}
+            </button>
+            <button
+              onClick={() => setConfirmClear(false)}
+              disabled={clearing}
+              className="text-sm text-gray-600 hover:text-gray-800 border border-gray-200 hover:bg-gray-50 rounded-lg px-3 py-1.5 transition-colors disabled:opacity-50"
+            >
+              取消
+            </button>
+          </div>
+        ) : (
+          <button
+            onClick={() => setConfirmClear(true)}
+            className="text-sm text-red-600 hover:text-red-700 border border-red-200 hover:bg-red-50 rounded-lg px-3 py-1.5 transition-colors"
+          >
+            清空记录
+          </button>
+        )}
       </div>
 
       <h3 className="text-sm font-semibold text-gray-700 uppercase tracking-wide mb-3">最近会话</h3>
@@ -56,7 +76,7 @@ export default function StatsPage() {
           return (
             <div key={s.session_id} className="bg-white border border-gray-200 rounded-xl px-4 py-3">
               <div className="flex justify-between items-center">
-                <strong className="font-semibold text-gray-900">{s.unit}</strong>
+                <strong className="font-semibold text-gray-900">{s.unit === 'errors' ? '错词复习' : s.unit}</strong>
                 <span className="text-sm text-gray-400">{date}</span>
               </div>
               {s.finished_at ? (
